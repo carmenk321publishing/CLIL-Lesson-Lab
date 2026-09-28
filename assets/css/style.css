@@ -1602,3 +1602,27 @@ select option {
     break-inside: avoid;
   }
 }
+
+/* ---------- Atlantis Learning Archives credit ---------- */
+.atlantis-credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--color-divider);
+  color: var(--color-text-muted);
+  opacity: 0.85;
+}
+
+.atlantis-credit svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+
+.atlantis-credit span {
+  font-size: var(--text-xs);
+  font-style: italic;
+}

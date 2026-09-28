@@ -88,7 +88,11 @@ function chrome() {
         <a href="https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors">CEFR, Council of Europe</a>,
         <a href="https://www.ecml.at/en/Resources/ECML-resources/ID/35">ECML CLIL teacher education</a>,
         <a href="https://education.ec.europa.eu/focus-topics/improving-quality/multilingualism/about-multilingualism-policy">European Commission multilingualism policy</a>.</p>
-    </div>`;
+    </div>
+    <p class="atlantis-credit">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" stroke-width="3"/><path d="M50 20 V64 M38 27 q0 14 8 16 q4 -8 4 -16 M62 27 q0 14 -8 16 q-4 -8 -4 -16" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M28 50 Q50 42 72 50 Q50 58 50 66 Q50 58 28 50" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M30 72 q10 -6 20 0 q10 -6 20 0" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <span>Atlantis Learning Archives | A project by Carmen Khoury | © 2026</span>
+    </p>`;
   document.body.append(footer);
 
   const wash = document.createElement('div');

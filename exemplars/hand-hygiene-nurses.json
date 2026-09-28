@@ -1,0 +1,800 @@
+{
+ "id": "9174ab059a3d",
+ "schema_version": "0.1.0-skeleton",
+ "created_at": "2026-09-08T20:11:04+00:00",
+ "mode": "one_off",
+ "header": {
+  "title": "how hand hygiene breaks the chain of infection",
+  "subject": "Infection prevention and control",
+  "course_name": "Medical English for internationally educated nurses",
+  "lesson_number": 4,
+  "lesson_total": 12,
+  "learner_group": "Adults, professional or vocational",
+  "purpose": "Workplace or professional need",
+  "target_language": "English",
+  "first_language": "Tagalog",
+  "support_label": "Largely independent",
+  "support_cefr": "around B1 to B2 and above",
+  "setting": "Online",
+  "format": "One to one",
+  "minutes": 30,
+  "teacher_role": "Both, I teach the subject and the language"
+ },
+ "sequence": {
+  "heading": "Where this lesson sits",
+  "carried_forward": [
+   "Last lesson covered: describing symptoms and taking a patient history."
+  ],
+  "position": "Lesson 4 of 12"
+ },
+ "objectives": {
+  "bloom_level": "Evaluate",
+  "bloom_available": [
+   "Apply",
+   "Analyse",
+   "Evaluate",
+   "Create"
+  ],
+  "content": [
+   {
+    "bloom": "Evaluate",
+    "text": "By the end of the lesson, the learner will be able to evaluate a colleague's proposed hand hygiene action against the evidence on ABHR limitations and the chain of infection, and justify the correct action (soap-and-water handwashing) for a C. difficile contact scenario.",
+    "note": "During the live roleplay, the learner names at least two source-based reasons (visible/known C. difficile exposure, ABHR ineffectiveness) to justify rejecting ABHR in favour of handwashing."
+   }
+  ],
+  "language": [
+   {
+    "strand": "Language of learning",
+    "text": "Use the terms chain of infection, reservoir, transmission, susceptible host, standard precautions, ABHR, handwashing, visibly soiled, C. difficile and hand hygiene compliance accurately when explaining a hand hygiene decision.",
+    "note": ""
+   },
+   {
+    "strand": "Language for learning",
+    "text": "Use functional language for disagreeing politely and justifying a decision, e.g. acknowledging a colleague's view before giving a reason and a recommendation.",
+    "note": ""
+   },
+   {
+    "strand": "Language through learning",
+    "text": "Notice and reuse cause-and-effect language (because, therefore, if we skip this...) that emerges naturally while defending the hand hygiene decision in the roleplay.",
+    "note": ""
+   }
+  ],
+  "learning_skill": "Learners will work with a partner or group and report a shared answer."
+ },
+ "timings": [
+  {
+   "stage": "Bridge back",
+   "minutes": 3
+  },
+  {
+   "stage": "Pre-task scaffold",
+   "minutes": 6
+  },
+  {
+   "stage": "Content input",
+   "minutes": 6
+  },
+  {
+   "stage": "Main task",
+   "minutes": 10
+  },
+  {
+   "stage": "Report and check",
+   "minutes": 5
+  }
+ ],
+ "stages": [
+  {
+   "number": 1,
+   "name": "Bridge back",
+   "minutes": 3,
+   "purpose": "Make the link to prior learning explicit, so this lesson is felt as part of a sequence.",
+   "teacher_does": [
+    "Show one image or object from the previous lesson and ask learners what they remember.",
+    "Record two or three remembered terms where everyone can see them.",
+    "Say in one sentence how today follows on."
+   ],
+   "learners_do": [
+    "Recall two things from last time, with thinking time before answering.",
+    "Add one term to the shared list."
+   ],
+   "language_focus": "Recall and naming. Accept the first language here if it speeds up retrieval.",
+   "watch_for": "Do not let this become a full review lesson. It is a doorway, not a room."
+  },
+  {
+   "number": 2,
+   "name": "Pre-task scaffold",
+   "minutes": 6,
+   "purpose": "Remove the language barrier before the content arrives, not during it.",
+   "teacher_does": [
+    "Pre-teach no more than eight key Infection prevention and control terms, each with a visual or a first-language gloss.",
+    "Display the sentence frames from the language bank and model one aloud.",
+    "Check understanding with a quick non-verbal response, such as pointing, holding up fingers or matching."
+   ],
+   "learners_do": [
+    "Match terms to images, then explain one match to the teacher.",
+    "Say one frame aloud once, so the first use is not during the task."
+   ],
+   "language_focus": "Language of learning. Authentic or lightly adapted text.",
+   "watch_for": "If learners cannot use a frame here, they will not use it in the task. Slow down rather than continue."
+  },
+  {
+   "number": 3,
+   "name": "Content input",
+   "minutes": 6,
+   "purpose": "Show the six-link chain of infection diagram and explain that hands are the most common transmission route between patients and environments [1][2]. Then present the specific case: hands are exposed to a patient confirmed with C. difficile, and explain why ABHR must not be used here, only soap and water for at least 20 seconds of scrubbing [1]. Briefly mention the glove misconception so the learner is alert to a second possible disagreement point in the roleplay [5]. Keep this stage under 8 minutes since the learner already holds the clinical knowledge and mainly needs the language to argue it.",
+   "teacher_does": [
+    "Six-link chain of infection diagram",
+    "Scenario text: colleague reaches for ABHR after contact with a C. difficile patient",
+    "Key vocabulary list (10 terms)",
+    "Sentence frames for disagreeing and justifying"
+   ],
+   "learners_do": [
+    "Answer: Which link of the chain of infection does hand hygiene break? (expected: The mode of transmission, because hands carry germs between people and surfaces [1][2].)",
+    "Answer: Why can't ABHR be used after contact with a patient with C. difficile? (expected: Because the corpus states ABHR should not be used for C. difficile exposure; soap and water is required instead [1].)"
+   ],
+   "language_focus": "Receptive. Learners need to understand, not yet to produce.",
+   "watch_for": "Long unbroken teacher talk is the most common failure point in CLIL input. Chunk it."
+  },
+  {
+   "number": 4,
+   "name": "Main task: Justify the Call",
+   "minutes": 10,
+   "purpose": "A convincing spoken justification, delivered live to a disagreeing colleague (played by the teacher), that recommends soap-and-water handwashing instead of ABHR after contact with a patient confirmed to have C. difficile, supported by at least two pieces of evidence from the input.",
+   "teacher_does": [
+    "Set the scene: 'I just took my gloves off after Mr Santos, he has confirmed C. diff, I'll just use the gel, it's quicker.'",
+    "Play the disagreeing colleague, pushing back at least twice with realistic objections (e.g. 'but gel kills germs too, doesn't it?').",
+    "Prompt with a sentence frame only if the learner stalls for more than 5 seconds.",
+    "After the roleplay, ask one evaluate-level follow-up: 'Which link of the chain were you protecting, and how do you know gel would have failed?'",
+    "Give brief feedback on both the clinical justification and the language used."
+   ],
+   "learners_do": [
+    "Read the scenario and review the vocabulary and frames for 3 minutes.",
+    "Plan two reasons to justify handwashing over ABHR using source facts.",
+    "Deliver the justification live to the teacher-as-colleague, responding to pushback.",
+    "Answer the teacher's final evaluate-level question aloud."
+   ],
+   "language_focus": "The learner cannot complete the task in silence because she must verbally counter the colleague's spoken objections and give reasons in real time.",
+   "watch_for": "In a one-to-one lesson, do not simply remove interaction. Create a genuine information gap so the learner has a reason to ask.",
+   "differentiation": [
+    "Less confident: Keep the sentence frames visible on screen throughout and allow the learner to pause and check notes before each response.",
+    "More confident: Remove the frames, add a third round of colleague pushback that raises the glove misconception as well, requiring the learner to handle two separate justifications.",
+    "Mixed group: Start with frames visible, then hide them after the first successful turn, adjusting live according to how fluently the learner is responding."
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Report and check",
+   "minutes": 5,
+   "purpose": "Make learning visible, and gather evidence against both objectives separately.",
+   "teacher_does": [
+    "Ask the learner to report the outcome as if to a third person.",
+    "Give one piece of content feedback and one piece of language feedback, clearly labelled as such.",
+    "Record who met the content objective and who met the language objective. They are not the same list."
+   ],
+   "learners_do": [
+    "Report the outcome using the frames.",
+    "Complete a one-question exit check on the content, answerable in the first language if needed."
+   ],
+   "language_focus": "Language through learning. Capture what emerged and reuse it next lesson.",
+   "watch_for": "Judging content understanding through language accuracy is the classic CLIL assessment error. Separate them.",
+   "evidence": [
+    "Content evidence: the exit check and the correctness of the task outcome.",
+    "Language evidence: use of the target frames during the task and the report."
+   ]
+  }
+ ],
+ "language_bank": {
+  "heading": "Language support bank",
+  "text_load": "Authentic or lightly adapted text",
+  "first_language_policy": "Target language throughout, first language as a personal strategy",
+  "functions": [
+   "disagreeing politely with a colleague's plan",
+   "giving evidence-based reasons for a decision",
+   "predicting a consequence if the wrong action is taken",
+   "recommending the correct action"
+  ],
+  "frames": [
+   "I understand gel feels quicker, but in this case we can't use ABHR because ___.",
+   "The guidance says soap and water is needed here because the hands have been exposed to ___.",
+   "If we only use gel, we won't break the chain of infection at the ___ link.",
+   "Based on the evidence, I'd recommend ___ instead of ___, because ___."
+  ],
+  "vocabulary_note": "10 terms, within the cap for this support level. Add a first-language gloss beside each one.",
+  "pronunciation_watch": [
+   "C. difficile - the stress falls on the second syllable of difficile (dif-ISS-il-ee), easy to mispronounce",
+   "alcohol-based hand rub - three stressed content words in a row, learners may flatten the stress",
+   "susceptible - four syllables with stress on the second (suh-SEP-tuh-bul)",
+   "compliance - stress on the second syllable (kum-PLY-ans), often stressed on the first by mistake"
+  ],
+  "vocabulary": [
+   {
+    "term": "chain of infection",
+    "definition": "The six-step pathway a germ follows to spread from one person to another; breaking one step stops the spread.",
+    "example_sentence": "Handwashing breaks the chain of infection at the transmission link.",
+    "visual": "A simple six-link chain diagram with each link labelled.",
+    "source": 1
+   },
+   {
+    "term": "reservoir",
+    "definition": "The place where a germ lives and can multiply, such as a person, surface or piece of equipment.",
+    "example_sentence": "A contaminated sink can act as a reservoir for bacteria.",
+    "visual": "Icon of a sink and a patient bed with a magnifying glass on germs.",
+    "source": 2
+   },
+   {
+    "term": "transmission",
+    "definition": "The way a germ moves from one place or person to another, often on hands.",
+    "example_sentence": "Hands are the most common route of transmission in hospitals.",
+    "visual": "Arrow diagram showing hand touching patient then equipment.",
+    "source": 1
+   },
+   {
+    "term": "susceptible host",
+    "definition": "A person who is at risk of getting an infection because their body cannot fight it off well.",
+    "example_sentence": "An elderly patient with a wound is a susceptible host.",
+    "visual": "Icon of a patient with a shield that has a gap in it.",
+    "source": 1
+   },
+   {
+    "term": "standard precautions",
+    "definition": "The basic infection control actions used with every patient, including hand hygiene and protective equipment.",
+    "example_sentence": "Standard precautions apply even when a patient does not look infected.",
+    "visual": "Checklist icon with gloves, mask and hand hygiene symbol.",
+    "source": 1
+   },
+   {
+    "term": "alcohol-based hand rub (ABHR)",
+    "definition": "A gel or liquid with 70 to 90 percent alcohol used to clean hands quickly when they are not visibly dirty.",
+    "example_sentence": "ABHR is faster than handwashing but cannot be used on visibly soiled hands.",
+    "visual": "Photo of a wall-mounted hand rub dispenser.",
+    "source": 1
+   },
+   {
+    "term": "handwashing",
+    "definition": "Cleaning hands with soap and running water for at least 20 seconds of scrubbing.",
+    "example_sentence": "Handwashing is required after contact with C. difficile.",
+    "visual": "Step-by-step handwashing icon sequence.",
+    "source": 1
+   },
+   {
+    "term": "visibly soiled",
+    "definition": "Hands that you can see are dirty, for example with blood or body fluid.",
+    "example_sentence": "Visibly soiled hands must be washed with soap and water, not gel.",
+    "visual": "Photo of a hand with a visible stain, crossed out gel bottle icon.",
+    "source": 1
+   },
+   {
+    "term": "C. difficile",
+    "definition": "A type of bacteria that causes bowel infections and is not killed by alcohol-based hand rub.",
+    "example_sentence": "After touching a patient with C. difficile, you must wash your hands with soap and water.",
+    "visual": "Icon of bacteria with a red no-alcohol symbol.",
+    "source": 1
+   },
+   {
+    "term": "hand hygiene compliance",
+    "definition": "How often health workers actually perform hand hygiene at the moments they should.",
+    "example_sentence": "Hand hygiene compliance rarely exceeds 70% even in high-income countries.",
+    "visual": "Simple bar chart icon showing a percentage.",
+    "source": 3
+   }
+  ]
+ },
+ "materials": [
+  "One visual for the key subject idea, such as a diagram, photograph or short clip",
+  "Printed or on-screen sentence frames, visible for the whole lesson",
+  "A short text or input source of about the length noted above (authentic or lightly adapted text)",
+  "A simple recording sheet or shared document for the task outcome",
+  "A seating or grouping plan"
+ ],
+ "compensation": {
+  "blocks": [
+   {
+    "heading": "Dual-role balance check",
+    "why": "You teach both, so the risk is not missing knowledge. It is one side taking over.",
+    "items": [
+     "Read your two objectives side by side. Could a learner meet one and fail the other?",
+     "Is the English carrying the Infection prevention and control learning, or competing with it?",
+     "Check that assessment credits subject understanding even when the language is imperfect.",
+     "Check your talking time. In a dual-role lesson it grows unnoticed."
+    ]
+   }
+  ]
+ },
+ "looking_ahead": {
+  "heading": "Looking ahead",
+  "next_topic": "explaining an infection control decision to a family member",
+  "items": [
+   "Next lesson: explaining an infection control decision to a family member. Say this to learners at the end so the sequence is visible.",
+   "Carry the language that emerged into the next lesson. That is the through-learning strand.",
+   "Note anything you cut. It opens the next bridge."
+  ],
+  "reflection_prompt": "Two minutes on the reflection form changes the next package."
+ },
+ "review_checklist": {
+  "heading": "Before you teach, check with a colleague",
+  "groups": [
+   {
+    "label": "Subject accuracy",
+    "items": [
+     "Is every subject claim correct and current for my curriculum?",
+     "Would a specialist accept the content objective as written?"
+    ]
+   },
+   {
+    "label": "Policy and curriculum",
+    "items": [
+     "Does this topic sit within what my school, curriculum authority and national policy permit?",
+     "Does the language of instruction match what my institution requires?",
+     "Can I credit subject understanding separately from language accuracy under my assessment policy?"
+    ]
+   },
+   {
+    "label": "Culture, representation and sensitivity",
+    "items": [
+     "Is this topic sensitive for any learner or family in this group?",
+     "Whose perspective does the content assume, and whose is missing?",
+     "Do the examples, names and images reflect my learners?",
+     "Could anything here read as a political or religious position?"
+    ]
+   },
+   {
+    "label": "Access",
+    "items": [
+     "Can the least confident learner still enter the task?",
+     "Is there a route through this for a learner who joins late or misses the input?"
+    ]
+   }
+  ]
+ },
+ "disclaimer": {
+  "heading": "Please read before you teach",
+  "body": [
+   "A planning draft, not an approved lesson. Assembled from what you supplied plus general CLIL structure. Not checked against your curriculum, your institution's policies or your learners' circumstances.",
+   "You are the qualified professional. Verify subject accuracy with a colleague, confirm policy with your school, and judge cultural fit for your learners yourself.",
+   "CLIL Lesson Lab accepts no liability for subject accuracy, policy or contractual compliance, assessment validity, or cultural appropriateness. Material you supply, including its copyright, remains your responsibility."
+  ],
+  "sources": [
+   {
+    "label": "CEFR levels and descriptors, Council of Europe",
+    "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors"
+   },
+   {
+    "label": "European Framework for CLIL Teacher Education, ECML",
+    "url": "https://www.ecml.at/en/Resources/ECML-resources/ID/35"
+   },
+   {
+    "label": "Multilingualism policy, European Commission",
+    "url": "https://education.ec.europa.eu/focus-topics/improving-quality/multilingualism/about-multilingualism-policy"
+   }
+  ]
+ },
+ "grounded": {
+  "brief": [
+   {
+    "claim": "The chain of infection has six links: infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, and susceptible host, and breaking any one link stops transmission.",
+    "source": 1
+   },
+   {
+    "claim": "Health care workers hands are the most common mode of transmission of microorganisms between patients, equipment and environments.",
+    "source": 1
+   },
+   {
+    "claim": "Hand hygiene must be performed immediately after glove removal, so wearing gloves does not replace hand hygiene.",
+    "source": 1
+   },
+   {
+    "claim": "Soap and water handwashing, not alcohol-based hand rub, must be used when hands are visibly soiled or exposed to C. difficile, norovirus or Bacillus anthracis.",
+    "source": 1
+   },
+   {
+    "claim": "Alcohol-based hand rub is the preferred method when soap and water is not specifically required, and it kills most microorganisms including viruses.",
+    "source": 1
+   },
+   {
+    "claim": "48.2% of surveyed health workers believed hand hygiene was unnecessary when gloves were worn, which is a documented misconception.",
+    "source": 5
+   },
+   {
+    "claim": "Appropriate hand hygiene can prevent up to 50% of avoidable infections acquired during health care delivery.",
+    "source": 3
+   },
+   {
+    "claim": "Hands are described as the single most important transmission route and the last line of defense against gastrointestinal, respiratory and skin infections because they contact the mouth, nose and eyes.",
+    "source": 2
+   }
+  ],
+  "misconceptions": [
+   {
+    "learners_think": "If I am wearing gloves, I do not need to perform hand hygiene.",
+    "why_it_is_wrong": "This is a documented misconception held by 48.2% of surveyed health workers, and gloves do not remove the need for hand hygiene before and after use.",
+    "what_is_correct": "Hand hygiene must be performed immediately after glove removal because gloves can still become contaminated or torn during care.",
+    "source": 5
+   },
+   {
+    "learners_think": "Alcohol-based hand rub is always an acceptable substitute for handwashing, including after contact with a patient with C. difficile.",
+    "why_it_is_wrong": "The corpus states ABHR should not be used when hands have been exposed to C. difficile, so relying on gel alone in this case does not break the chain of transmission.",
+    "what_is_correct": "Soap and water handwashing for at least 20 seconds of scrubbing must be used instead of ABHR after contact with a C. difficile patient.",
+    "source": 1
+   }
+  ],
+  "gaps": [
+   "The corpus does not give the exact mechanism explaining why alcohol does not work against C. difficile, so the teacher should not invent a spore-based explanation beyond what the source states.",
+   "The corpus does"
+  ],
+  "sources": [
+   {
+    "index": 1,
+    "title": "Chapter 4: Adhere to Principles of Infection Control - NCBI - NIH",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK599388/",
+    "publisher": "www.ncbi.nlm.nih.gov",
+    "published": null
+   },
+   {
+    "index": 2,
+    "title": "Eficácia dos procedimentos de higiene das mãos na redução ...",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7115270/",
+    "publisher": "pmc.ncbi.nlm.nih.gov",
+    "published": "2007-12-10"
+   },
+   {
+    "index": 3,
+    "title": "Key facts and figures - World Health Organization (WHO)",
+    "url": "https://www.who.int/campaigns/world-hand-hygiene-day/2021/key-facts-and-figures",
+    "publisher": "www.who.int",
+    "published": "2021-03-25"
+   },
+   {
+    "index": 4,
+    "title": "WHO Global Infection Prevention and Control Unit",
+    "url": "https://iris.who.int/server/api/core/bitstreams/edf7c950-6b1a-4234-ada4-d43cd322b6ff/content",
+    "publisher": "iris.who.int",
+    "published": null
+   },
+   {
+    "index": 5,
+    "title": "Hand hygiene knowledge, glove use misconceptions, and ...",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42449438/",
+    "publisher": "pubmed.ncbi.nlm.nih.gov",
+    "published": null
+   },
+   {
+    "index": 6,
+    "title": "Introduction | HAIs - CDC",
+    "url": "https://www.cdc.gov/healthcare-associated-infections/hcp/cleaning-global/introduction.html",
+    "publisher": "www.cdc.gov",
+    "published": "2024-06-13"
+   }
+  ],
+  "searched": 6,
+  "usable": 6
+ },
+ "worksheet": {
+  "title": "Justify the Call: Handwashing vs ABHR for C. difficile",
+  "learner_instructions": "Complete Parts 1 to 3 on your own using what you learned in the input stage, then use Part 4 to prepare the reasons you will say out loud to your teacher in the roleplay.",
+  "language_help_box": [
+   "I understand gel feels quicker, but in this case we can't use ABHR because ___.",
+   "The guidance says soap and water is needed here because the hands have been exposed to ___.",
+   "If we only use gel, we won't break the chain of infection at the ___ link.",
+   "Based on the evidence, I'd recommend ___ instead of ___, because ___.",
+   "Key words: chain of infection, reservoir, transmission, susceptible host, standard precautions, ABHR, handwashing, visibly soiled, C. difficile, hand hygiene compliance"
+  ],
+  "parts": [
+   {
+    "number": 1,
+    "heading": "The chain of infection",
+    "instructions": "Answer using the diagram and explanation from the lesson.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "List the six links of the chain of infection, in order.",
+      "response_type": "short answer",
+      "lines": 6
+     },
+     {
+      "prompt": "Which link does hand hygiene most directly break?",
+      "response_type": "short answer",
+      "lines": 2
+     },
+     {
+      "prompt": "Why are healthcare workers hands described as the most common mode of transmission?",
+      "response_type": "short answer",
+      "lines": 2
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "heading": "Applying the evidence: ABHR vs handwashing",
+    "instructions": "Use the scenario and facts from the input stage to answer.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "Your colleague picks up alcohol-based hand rub after removing gloves used with a patient confirmed to have C. difficile. Should ABHR be used here? Answer yes or no and give one source-based reason.",
+      "response_type": "short answer",
+      "lines": 3
+     },
+     {
+      "prompt": "Your colleague says: 'I wore gloves, so I do not need to do hand hygiene.' Is this correct? Explain using the evidence.",
+      "response_type": "short answer",
+      "lines": 3
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "heading": "Language for disagreeing and justifying",
+    "instructions": "Complete these language items using the frames and word bank in the box above. This checks your language, not your clinical knowledge.",
+    "assesses": "language",
+    "items": [
+     {
+      "prompt": "Complete: 'I understand gel feels quicker, but in this case we can't use ABHR because ___.'",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "Match each phrase to its function: (a) 'I understand your point, but...' (b) 'The guidance says...' (c) 'I'd recommend...' Functions: disagreeing politely / giving a reason / recommending an action.",
+      "response_type": "table",
+      "lines": 3
+     },
+     {
+      "prompt": "Mark the stressed syllable in each word: C. difficile, susceptible, compliance, alcohol-based hand rub.",
+      "response_type": "label",
+      "lines": 4
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "heading": "Prepare your justification",
+    "instructions": "Plan your live response before the roleplay. You will say this aloud to your teacher, who will play the disagreeing colleague.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "Write two evidence-based reasons why you would insist on soap-and-water handwashing instead of ABHR in the C. difficile scenario. Use a frame from the Language Help Box for at least one reason.",
+      "response_type": "extended",
+      "lines": 4
+     }
+    ]
+   }
+  ],
+  "exit_check": {
+   "prompt": "In one sentence, which link of the chain of infection are you protecting when you choose handwashing over gel for C. difficile?",
+   "note": "First language (Tagalog) accepted if the clinical point is correct; language accuracy is not assessed here."
+  }
+ },
+ "answer_key": [
+  {
+   "part": 1,
+   "prompt": "List the six links of the chain of infection, in order.",
+   "answer": "infectious agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host",
+   "accept_also": "any order that preserves all six named links, minor wording variation accepted (e.g. exit portal / entry portal)",
+   "marking_note": "Content check - full credit requires all six links."
+  },
+  {
+   "part": 1,
+   "prompt": "Which link does hand hygiene most directly break?",
+   "answer": "mode of transmission",
+   "accept_also": "transmission",
+   "marking_note": "Content check."
+  },
+  {
+   "part": 1,
+   "prompt": "Why are healthcare workers hands described as the most common mode of transmission?",
+   "answer": "Because hands are the most common mode of transmission of microorganisms between patients, equipment and environments.",
+   "accept_also": "any paraphrase referencing hands as the main transmission route",
+   "marking_note": "Content check - accept paraphrase."
+  },
+  {
+   "part": 2,
+   "prompt": "Should ABHR be used after contact with a C. difficile patient?",
+   "answer": "No - ABHR must not be used after C. difficile exposure; soap and water handwashing is required instead.",
+   "accept_also": "accept mention that ABHR does not work against C. difficile",
+   "marking_note": "Content check - both the yes/no and the source-based reason are needed for full credit."
+  },
+  {
+   "part": 2,
+   "prompt": "Is 'I wore gloves, so I do not need hand hygiene' correct?",
+   "answer": "No, this is incorrect - it is a documented misconception held by 48.2% of surveyed health workers. Hand hygiene must be performed immediately after glove removal.",
+   "accept_also": "accept reference to gloves becoming contaminated or torn during care",
+   "marking_note": "Content check."
+  },
+  {
+   "part": 3,
+   "prompt": "Complete: 'I understand gel feels quicker, but in this case we can't use ABHR because ___.'",
+   "answer": "the hands were exposed to C. difficile (or: the hands are visibly soiled)",
+   "accept_also": "any grammatically correct completion referencing C. difficile exposure or visible soiling",
+   "marking_note": "Language check - accept minor grammar slips if meaning is clear."
+  },
+  {
+   "part": 3,
+   "prompt": "Match each phrase to its function.",
+   "answer": "(a) disagreeing politely, (b) giving a reason, (c) recommending an action",
+   "accept_also": "none",
+   "marking_note": "Language check - matching form to function."
+  },
+  {
+   "part": 3,
+   "prompt": "Mark the stressed syllable in each word.",
+   "answer": "C. difficile: dif-ISS-il-ee; susceptible: suh-SEP-tuh-bul; compliance: kum-PLY-ans; alcohol-based hand rub: stress falls on all three content words",
+   "accept_also": "any reasonable phonetic marking showing the correct syllable or word stressed",
+   "marking_note": "Language check - pronunciation awareness, not phonetic transcription accuracy."
+  },
+  {
+   "part": 4,
+   "prompt": "Write two evidence-based reasons to justify handwashing over ABHR.",
+   "answer": "Sample: (1) ABHR should not be used because the hands were exposed to C. difficile - soap and water is required instead. (2) Alcohol-based hand rub does not reliably work against C. difficile, so gel alone would not break the chain of transmission.",
+   "accept_also": "any two reasons drawn from the lesson facts, e.g. the C. diff exposure rule, the ABHR limitation, or the transmission link of the chain of infection",
+   "marking_note": "Content check - this is written preparation; full evaluation is assessed live in the roleplay against the content objective."
+  },
+  {
+   "part": "exit",
+   "prompt": "Which link are you protecting when you choose handwashing over gel for C. difficile?",
+   "answer": "mode of transmission",
+   "accept_also": "answer given in Tagalog is acceptable if the clinical point is correct",
+   "marking_note": "Content check - quick oral or written check, not scored for language."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "chain of infection",
+   "definition": "The six-step pathway a germ follows to spread from one person to another; breaking one step stops the spread.",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "stress on 'chain' and on the second syllable of in-FEC-tion",
+   "first_language_space": true
+  },
+  {
+   "term": "reservoir",
+   "definition": "The place where a germ lives and can multiply, such as a person, surface or piece of equipment.",
+   "part_of_speech": "noun",
+   "pronunciation_note": "REZ-er-vwar",
+   "first_language_space": true
+  },
+  {
+   "term": "transmission",
+   "definition": "The way a germ moves from one place or person to another, often on hands.",
+   "part_of_speech": "noun",
+   "pronunciation_note": "tranz-MISH-un",
+   "first_language_space": true
+  },
+  {
+   "term": "susceptible host",
+   "definition": "A person who is at risk of getting an infection because their body cannot fight it off well.",
+   "part_of_speech": "adjective + noun",
+   "pronunciation_note": "suh-SEP-tuh-bul, stress on the second syllable",
+   "first_language_space": true
+  },
+  {
+   "term": "standard precautions",
+   "definition": "The basic infection control actions used with every patient, including hand hygiene and protective equipment.",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "pri-CAW-shuns",
+   "first_language_space": true
+  },
+  {
+   "term": "alcohol-based hand rub (ABHR)",
+   "definition": "A gel or liquid with 70 to 90 percent alcohol used to clean hands quickly when they are not visibly dirty.",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "three stressed content words in a row - do not flatten the stress",
+   "first_language_space": true
+  },
+  {
+   "term": "handwashing",
+   "definition": "Cleaning hands with soap and running water for at least 20 seconds of scrubbing.",
+   "part_of_speech": "noun",
+   "pronunciation_note": "HAND-wash-ing",
+   "first_language_space": true
+  },
+  {
+   "term": "visibly soiled",
+   "definition": "Hands that you can see are dirty, for example with blood or body fluid.",
+   "part_of_speech": "adjective phrase",
+   "pronunciation_note": "VIZ-ib-lee soyld",
+   "first_language_space": true
+  },
+  {
+   "term": "C. difficile",
+   "definition": "A type of bacteria that causes bowel infections and is not killed by alcohol-based hand rub.",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "dif-ISS-il-ee, stress on the second syllable - easy to mispronounce",
+   "first_language_space": true
+  },
+  {
+   "term": "hand hygiene compliance",
+   "definition": "How often health workers actually perform hand hygiene at the moments they should.",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "kum-PLY-ans, stress on the second syllable, often wrongly stressed on the first",
+   "first_language_space": true
+  }
+ ],
+ "teacher_script": [
+  "I just took my gloves off after Mr Santos - he has confirmed C. diff - I'll just use the gel, it's quicker.",
+  "But gel kills germs too, doesn't it? Why can't I just use that?",
+  "Ok, but I wore gloves the whole time, so surely my hands are fine?",
+  "Which link of the chain were you protecting there, and how do you know gel would have failed?",
+  "Great justification - your clinical reasoning was accurate. Now let's look at how you used 'because' and 'I'd recommend' - both very natural."
+ ],
+ "verification": {
+  "checks": [
+   {
+    "name": "Every subject claim traces to a source",
+    "status": "pass",
+    "note": "All 8 subject_brief claims and both misconceptions map cleanly to the cited source numbers (verified against Sources 1, 2, 3, 5)."
+   },
+   {
+    "name": "No fact contradicts the corpus",
+    "status": "flag",
+    "note": "Core facts align with the corpus. However, the reasoning 'ABHR does not reliably work against C. difficile' (used in misconceptions and answer_key) implies a mechanism/efficacy claim the corpus never states — it only says ABHR must not be used for C. diff exposure, without explaining why. The material's own 'gaps' note warns against inventing a spore-based explanation, yet the answer key still offers 'ABHR does not work against C. difficile' as an acceptable learner answer, which is inconsistent with that caution."
+   },
+   {
+    "name": "No outdated or disputed science presented as settled",
+    "status": "pass",
+    "note": "No disputed science introduced; content stays within WHO/CDC/NCBI consensus positions from the corpus."
+   },
+   {
+    "name": "Objectives achievable in the lesson length",
+    "status": "flag",
+    "note": "30 minutes one-to-one must cover an 8-minute input stage, a 4-part worksheet (9 items including a matching task and stress-marking), a live roleplay with pushback and follow-up question, plus feedback. This is ambitious; teacher should confirm whether some worksheet parts (e.g. Part 1 recall items) are meant as pre-work rather than in-session, or trim Part 3."
+   },
+   {
+    "name": "Cognitive demand matches the stated Bloom level",
+    "status": "pass",
+    "note": "The main task (live justification against a disagreeing colleague, with a final 'which link were you protecting and how do you know' question) genuinely requires evaluation, not just recall. Lower-order worksheet items (Part 1, Part 3 matching) function as scaffolding rather than the assessed outcome, which is appropriate."
+   },
+   {
+    "name": "Vocabulary load within the cap",
+    "status": "pass",
+    "note": "Exactly 10 terms in both the vocabulary list and glossary, matching the stated cap; no additional unlisted new terms are required for the tasks."
+   },
+   {
+    "name": "Language on the worksheet matches the support level",
+    "status": "pass",
+    "note": "Instructions and sentence frames are consistent with independent B1-B2 use; stress-marking and function-matching tasks are appropriately pitched for this level without over-scaffolding."
+   },
+   {
+    "name": "Task genuinely requires the target language",
+    "status": "pass",
+    "note": "The roleplay cannot be completed silently — the learner must respond live to unscripted pushback from the teacher-as-colleague, directly matching the stated professional need."
+   },
+   {
+    "name": "Task outcome is concrete, not a verb list",
+    "status": "pass",
+    "note": "Outcome is specific and observable: 'a convincing spoken justification... supported by at least two pieces of evidence,' not a vague Bloom-verb restatement."
+   },
+   {
+    "name": "Every worksheet item has an answer",
+    "status": "pass",
+    "note": "All 9 worksheet items plus the exit check have a corresponding answer_key entry (10 total, matching)."
+   },
+   {
+    "name": "Content and language assessed separately",
+    "status": "pass",
+    "note": "Each worksheet part is explicitly tagged 'assesses: content' or 'assesses: language,' and Part 3 and the exit check explicitly state language accuracy is not being judged there."
+   },
+   {
+    "name": "Age and register appropriate for the learner group",
+    "status": "pass",
+    "note": "Scenario, teacher script, and vocabulary register are consistent with adult professional nursing practice; no age-inappropriate content."
+   }
+  ],
+  "unsupported_claims": [
+   {
+    "claim": "Alcohol-based hand rub does not reliably work against C. difficile (stated as an acceptable justification in the answer key and implied in the content objective's 'ABHR ineffectiveness' reason).",
+    "why": "The corpus only instructs that ABHR must not be used for C. difficile exposure; it does not state that ABHR is ineffective against C. difficile. This is a plausible clinical inference the teacher may know independently, but it is not sourced, and the material's own 'gaps' section explicitly warns against introducing this kind of explanation beyond what the source states — yet the answer key still allows it as a stated reason."
+   }
+  ],
+  "teacher_must_confirm": [
+   "Whether the full 4-part worksheet plus live roleplay and feedback genuinely fits in 30 minutes for this learner, or whether Parts 1-2 should be assigned before the session as prep.",
+   "Whether to explain the actual clinical reason ABHR is insufficient for C. difficile (spore resistance to alcohol) if the learner asks 'why' during the roleplay, since this is real nursing knowledge but not present in the supplied corpus.",
+   "Whether this specific learner's spoken fluency can handle unscripted colleague pushback within the 5-second prompt window, or whether frames need to stay visible for longer given it's a live one-to-one lesson.",
+   "Whether to include the optional third-round glove-misconception pushback for more confident learners, based on how the first roleplay round goes in real time."
+  ]
+ },
+ "generation": {
+  "mode": "grounded",
+  "write_model": "claude_sonnet_5_0",
+  "verify_model": "claude_sonnet_5_0",
+  "note": "Subject content written from 6 retrieved sources and audited by a second pass. Claims carry source numbers. Anything the audit could not confirm is flagged rather than hidden."
+ },
+ "share_token": "47fc0fe65eb248a78563a8f5e9c02da0"
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My courses — CLIL Lesson Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="courses">
+
+<main>
+  <div class="shell">
+
+    <h1 class="page-title">My courses</h1>
+    <p class="lede">
+      A course holds what does not change week to week, so each lesson picks up where the last one ended.
+    </p>
+
+    <div style="margin-top:var(--space-10)" id="course-list">
+      <div class="skeleton" style="width:55%"></div>
+    </div>
+
+    <hr class="rule">
+
+    <h2 class="section-title">Start a new course</h2>
+    <form id="course-form">
+
+      <section class="form-section">
+        <header>
+          <h2>The course</h2>
+          <p>Use the name your school uses.</p>
+        </header>
+        <div class="field-grid">
+          <div class="field field--full">
+            <label for="c-name">Course name</label>
+            <input type="text" id="c-name" name="name" required placeholder="For example, Year 6 History through English, term two">
+          </div>
+          <div class="field">
+            <label for="c-subject">Subject</label>
+            <input type="text" id="c-subject" name="subject" required placeholder="For example, history">
+          </div>
+          <div class="field">
+            <label for="c-lesson_total">How many lessons, roughly?</label>
+            <input type="number" id="c-lesson_total" name="lesson_total" min="1" max="200" placeholder="12">
+            <p class="hint">An estimate is fine.</p>
+          </div>
+          <div class="field">
+            <label for="c-minutes">Usual lesson length in minutes</label>
+            <input type="number" id="c-minutes" name="minutes" min="10" max="240" value="45">
+          </div>
+          <div class="field">
+            <label for="c-purpose">Why are these learners studying this?</label>
+            <select id="c-purpose" name="purpose"></select>
+            <p class="hint">Shapes task authenticity more than a level label does.</p>
+          </div>
+          <div class="field">
+            <label for="c-cadence">How often will you send a course update?</label>
+            <select id="c-cadence" name="cadence"></select>
+            <p class="hint">A family newsletter or staff one-pager, drafted from your own lessons.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <header>
+          <h2>Who is in the room</h2>
+          <p>Age group first. Language second, as support.</p>
+        </header>
+        <div class="field-grid">
+          <div class="field">
+            <label for="c-learner_group">Learner group</label>
+            <select id="c-learner_group" name="learner_group"></select>
+          </div>
+          <div class="field">
+            <label for="c-target_language">Target language</label>
+            <input type="text" id="c-target_language" name="target_language" placeholder="For example, English">
+          </div>
+          <div class="field">
+            <label for="c-first_language">Learners' first language or languages</label>
+            <input type="text" id="c-first_language" name="first_language">
+          </div>
+          <div class="field">
+            <label for="c-setting">Setting</label>
+            <select id="c-setting" name="setting"></select>
+          </div>
+          <div class="field">
+            <label for="c-format">Class format</label>
+            <select id="c-format" name="format"></select>
+          </div>
+          <div class="field field--full">
+            <span class="field__label">How much language support do these learners need?</span>
+            <div class="choice-row" id="c-support-row"></div>
+            <p class="hint">CEFR equivalent shown beside each option. "Not sure" is a valid answer.</p>
+          </div>
+          <div class="field field--full">
+            <span class="field__label">Which side of CLIL are you covering?</span>
+            <div class="choice-row" id="c-role-row"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="form-actions">
+        <button class="btn btn--primary" type="submit">Create course</button>
+        <a class="btn btn--text" href="build.html">Or plan a one-off lesson instead</a>
+      </div>
+    </form>
+
+  </div>
+</main>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

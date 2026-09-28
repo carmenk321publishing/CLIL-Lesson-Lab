@@ -1,0 +1,868 @@
+{
+ "id": "b92fcd7881af",
+ "schema_version": "0.1.0-skeleton",
+ "created_at": "2026-09-08T20:06:27+00:00",
+ "mode": "one_off",
+ "header": {
+  "title": "how the Silk Roads changed what people ate",
+  "subject": "History",
+  "course_name": "Year 8 History through English",
+  "lesson_number": 3,
+  "lesson_total": 10,
+  "learner_group": "Lower secondary (ages 11 to 14)",
+  "purpose": "Required by the curriculum",
+  "target_language": "English",
+  "first_language": "Arabic",
+  "support_label": "Can follow with heavy support",
+  "support_cefr": "around A1 to A2",
+  "setting": "In person",
+  "format": "Group class",
+  "minutes": 45,
+  "teacher_role": "Subject or content teacher"
+ },
+ "sequence": {
+  "heading": "Where this lesson sits",
+  "carried_forward": [
+   "Last lesson covered: where the Silk Roads ran and who travelled them."
+  ],
+  "position": "Lesson 3 of 10"
+ },
+ "objectives": {
+  "bloom_level": "Analyse",
+  "bloom_available": [
+   "Understand",
+   "Apply",
+   "Analyse",
+   "Evaluate"
+  ],
+  "content": [
+   {
+    "bloom": "Analyse",
+    "text": "By the end of the lesson, learners will be able to sequence the journey of couscous from Marrakesh to at least two other regions, using evidence from historical cookbooks.",
+    "note": "Teacher checks the labelled route on each pair's Food Journey Chart against the source evidence given in class."
+   },
+   {
+    "bloom": "Analyse",
+    "text": "By the end of the lesson, learners will be able to identify which groups of people changed their diet because of contact along the Silk Roads and give one piece of evidence to justify their answer.",
+    "note": "Teacher reads each pair's written justification sentence on the chart and checks it names a group and links it to a specific piece of evidence."
+   }
+  ],
+  "language": [
+   {
+    "strand": "Language of learning",
+    "text": "Learners will use the words trade route, spread, recipe, region and merchant to talk about how a food moved between places.",
+    "note": ""
+   },
+   {
+    "strand": "Language for learning",
+    "text": "Learners will use sequencing frames such as 'First..., then..., after that...' and cause frames such as 'This shows that... because...' to build their explanation.",
+    "note": ""
+   },
+   {
+    "strand": "Language through learning",
+    "text": "While tracing the route, learners will produce new short phrases naming specific regions (e.g. 'the Iberian Peninsula', 'North Africa') that were not pre-taught, picked up from the map and cookbook evidence.",
+    "note": ""
+   }
+  ],
+  "learning_skill": "Learners will work with a partner or group and report a shared answer."
+ },
+ "timings": [
+  {
+   "stage": "Bridge back",
+   "minutes": 4
+  },
+  {
+   "stage": "Pre-task scaffold",
+   "minutes": 9
+  },
+  {
+   "stage": "Content input",
+   "minutes": 9
+  },
+  {
+   "stage": "Main task",
+   "minutes": 16
+  },
+  {
+   "stage": "Report and check",
+   "minutes": 7
+  }
+ ],
+ "stages": [
+  {
+   "number": 1,
+   "name": "Bridge back",
+   "minutes": 4,
+   "purpose": "Make the link to prior learning explicit, so this lesson is felt as part of a sequence.",
+   "teacher_does": [
+    "Show one image or object from the previous lesson and ask learners what they remember.",
+    "Record two or three remembered terms where everyone can see them.",
+    "Say in one sentence how today follows on."
+   ],
+   "learners_do": [
+    "In pairs, recall two things from last time before anyone answers aloud.",
+    "Add one term to the shared list."
+   ],
+   "language_focus": "Recall and naming. Accept the first language here if it speeds up retrieval.",
+   "watch_for": "Do not let this become a full review lesson. It is a doorway, not a room."
+  },
+  {
+   "number": 2,
+   "name": "Pre-task scaffold",
+   "minutes": 9,
+   "purpose": "Remove the language barrier before the content arrives, not during it.",
+   "teacher_does": [
+    "Pre-teach no more than eight key History terms, each with a visual or a first-language gloss.",
+    "Display the sentence frames from the language bank and model one aloud.",
+    "Check understanding with a quick non-verbal response, such as pointing, holding up fingers or matching."
+   ],
+   "learners_do": [
+    "Match terms to images with a partner, then compare with another pair.",
+    "Say one frame aloud once, so the first use is not during the task."
+   ],
+   "language_focus": "Language of learning. Up to 100 words of new text, chunked into short sections.",
+   "watch_for": "If learners cannot use a frame here, they will not use it in the task. Slow down rather than continue."
+  },
+  {
+   "number": 3,
+   "name": "Content input",
+   "minutes": 9,
+   "purpose": "Show a simple map of the Silk Roads and tell the couscous story as a chain of events: a recipe from Marrakesh appears in a 13th-century cookbook, the same dish appears in a cookbook from the Iberian Peninsula, and later Leo Africanus (1494-1554) praises it, while historians say it spread across North Africa, the Arabian Peninsula and Europe [1]. Briefly connect this to the wider mechanism: markets, exported goods and travelling merchants and rulers carried foods and recipes between regions [3]. Keep the story short and visual, pointing to each place on the map as you say it, since learners are at A1 to A2 and need the sequence shown, not just told. End with the misconception check: interaction along the Silk Roads did not make every diet the same, some communities kept their own food habits [6].",
+   "teacher_does": [
+    "Title: How did couscous travel?",
+    "Map of the Silk Roads with Marrakesh, Iberian Peninsula, North Africa, Arabian Peninsula and Europe marked",
+    "Timeline: 13th century cookbook (Marrakesh) -> Iberian Peninsula cookbook -> Leo Africanus 1494-1554",
+    "6 key words with icons: Silk Roads, trade route, spread, recipe, region, merchant",
+    "Sentence frames for the task"
+   ],
+   "learners_do": [
+    "Answer: Where does the couscous recipe first appear in writing, and when? (expected: In a cookbook from Marrakesh, in the 13th century.)",
+    "Answer: Name one other place where a couscous recipe was recorded. (expected: The Iberian Peninsula.)",
+    "Answer: Did everyone along the Silk Roads end up eating exactly the same food? (expected: No, some communities kept different diets even with trade contact.)"
+   ],
+   "language_focus": "Receptive. Learners need to understand, not yet to produce.",
+   "watch_for": "Long unbroken teacher talk is the most common failure point in CLIL input. Chunk it."
+  },
+  {
+   "number": 4,
+   "name": "Main task: Food Journey Chart: Tracing Couscous",
+   "minutes": 16,
+   "purpose": "A completed pair worksheet showing a labelled map/route of couscous from Marrakesh to two other regions, plus three written sentences (using the sentence frames) naming who changed their diet and why.",
+   "teacher_does": [
+    "Give each pair a blank Silk Roads map outline and a set of 4 evidence cards (Marrakesh cookbook, Iberian Peninsula cookbook, Leo Africanus, historians' accounts of spread) taken from Source 1.",
+    "Model drawing the first arrow from Marrakesh to the Iberian Peninsula on the board, using the frame 'First it appeared in..., then it spread to...'.",
+    "Circulate while pairs work, prompting with checking questions and correcting only the target vocabulary.",
+    "Call two pairs to read their three sentences aloud to the class as a final check."
+   ],
+   "learners_do": [
+    "In pairs, read the four evidence cards together.",
+    "Order the cards by date and place, and draw arrows on the map to show the route.",
+    "Label each arrow with the place name and date from the evidence card.",
+    "Write three sentences using the frames: one to sequence the journey, one to name who changed their diet, one to give the evidence.",
+    "Practise reading the three sentences aloud to your partner before the teacher calls on pairs."
+   ],
+   "language_focus": "Pairs must read short evidence cards, agree on the order of places and dates, and write cause-and-effect sentences together, so they must speak and write in English to build and check the chart.",
+   "watch_for": "If groups fall silent, the language support is missing, not the motivation.",
+   "differentiation": [
+    "Less confident: Give a partly-completed chart with the route already drawn and a word bank next to each gapped sentence frame.",
+    "More confident: Ask the pair to add a second food (e.g. watermelon, using Source 3) to their chart and write one extra sentence comparing the two journeys.",
+    "Mixed group: Pair a more confident learner with a less confident learner and assign roles: one reads the evidence card aloud, the other writes the sentence, then they swap roles for the next sentence."
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Report and check",
+   "minutes": 7,
+   "purpose": "Make learning visible, and gather evidence against both objectives separately.",
+   "teacher_does": [
+    "Take one report per group, holding others to listening with a specific question.",
+    "Give one piece of content feedback and one piece of language feedback, clearly labelled as such.",
+    "Record who met the content objective and who met the language objective. They are not the same list."
+   ],
+   "learners_do": [
+    "Report the outcome using the frames.",
+    "Complete a one-question exit check on the content, answerable in the first language if needed."
+   ],
+   "language_focus": "Language through learning. Capture what emerged and reuse it next lesson.",
+   "watch_for": "Judging content understanding through language accuracy is the classic CLIL assessment error. Separate them.",
+   "evidence": [
+    "Content evidence: the exit check and the correctness of the task outcome.",
+    "Language evidence: use of the target frames during the task and the report."
+   ]
+  }
+ ],
+ "language_bank": {
+  "heading": "Language support bank",
+  "text_load": "Up to 100 words of new text, chunked into short sections",
+  "first_language_policy": "First language allowed for planning, target language for the report",
+  "functions": [
+   "Sequencing the stages of a food's journey",
+   "Naming a place and linking it to evidence",
+   "Giving a reason for a change in diet using cause language"
+  ],
+  "frames": [
+   "Couscous started in ___.",
+   "First it appeared in a recipe from ___. Then it spread to ___.",
+   "People in ___ began to eat couscous because of trade along the Silk Roads.",
+   "This shows that ___ changed their diet because ___.",
+   "The evidence for this is ___."
+  ],
+  "vocabulary_note": "6 terms, within the cap for this support level. Add a first-language gloss beside each one.",
+  "pronunciation_watch": [
+   "couscous - double 's' sound, learners may say each 's' too hard or add an extra syllable",
+   "Marrakesh - stress falls on the last syllable, not the first",
+   "merchant - 'ch' sound does not exist the same way in Arabic, may be pronounced as 'sh'",
+   "region - soft 'g' sound (like 'j'), often mispronounced as hard 'g'"
+  ],
+  "vocabulary": [
+   {
+    "term": "Silk Roads",
+    "definition": "Old trade paths across land and sea that connected Asia, Africa and Europe.",
+    "example_sentence": "Couscous spread along the Silk Roads to new places.",
+    "visual": "Simple map with dotted lines connecting Marrakesh, the Iberian Peninsula, and Baghdad.",
+    "source": 1
+   },
+   {
+    "term": "trade route",
+    "definition": "A path that merchants used to carry goods and food between places.",
+    "example_sentence": "Merchants carried watermelons along the trade route to Baghdad.",
+    "visual": "Arrow icon on a map between two cities.",
+    "source": 3
+   },
+   {
+    "term": "spread",
+    "definition": "To move from one place to many places over time.",
+    "example_sentence": "Couscous recipes spread from Marrakesh to Europe.",
+    "visual": "Icon of one dot branching into several dots.",
+    "source": 1
+   },
+   {
+    "term": "recipe",
+    "definition": "Written instructions that show how to cook a dish.",
+    "example_sentence": "A 13th-century cookbook recorded a couscous recipe from Marrakesh.",
+    "visual": "Picture of an old handwritten cookbook page.",
+    "source": 1
+   },
+   {
+    "term": "region",
+    "definition": "A large area of land, often with its own foods and customs.",
+    "example_sentence": "Couscous became popular in the region of North Africa.",
+    "visual": "Map with shaded areas showing different regions.",
+    "source": 1
+   },
+   {
+    "term": "merchant",
+    "definition": "A person who travels and sells goods, often carrying new foods with them.",
+    "example_sentence": "A merchant might carry dried fruit or spices on a long journey.",
+    "visual": "Simple drawing of a person with a loaded camel or cart.",
+    "source": 3
+   }
+  ]
+ },
+ "materials": [
+  "One visual for the key subject idea, such as a diagram, photograph or short clip",
+  "Printed or on-screen sentence frames, visible for the whole lesson",
+  "A short text or input source of about the length noted above (up to 100 words of new text, chunked into short sections)",
+  "A simple recording sheet or shared document for the task outcome",
+  "A seating or grouping plan"
+ ],
+ "compensation": {
+  "blocks": [
+   {
+    "heading": "Language demand support",
+    "why": "Your training is in the subject, so this makes the English demand visible.",
+    "items": [
+     "Read the task aloud and mark every unfamiliar word. More than about eight means pre-teach or reduce.",
+     "Separate the language needed to understand the input from the language needed to produce the task. Support both.",
+     "Give learners the exact sentence patterns the task requires. They will not find them alone.",
+     "Decide when the first language is allowed, and tell learners. Silence on this creates anxiety.",
+     "Ask a language colleague whether the task is possible with the language you supplied."
+    ]
+   }
+  ]
+ },
+ "looking_ahead": {
+  "heading": "Looking ahead",
+  "next_topic": "what else travelled along the Silk Roads besides goods",
+  "items": [
+   "Next lesson: what else travelled along the Silk Roads besides goods. Say this to learners at the end so the sequence is visible.",
+   "Carry the language that emerged into the next lesson. That is the through-learning strand.",
+   "Note anything you cut. It opens the next bridge."
+  ],
+  "reflection_prompt": "Two minutes on the reflection form changes the next package."
+ },
+ "review_checklist": {
+  "heading": "Before you teach, check with a colleague",
+  "groups": [
+   {
+    "label": "Subject accuracy",
+    "items": [
+     "Is every subject claim correct and current for my curriculum?",
+     "Would a specialist accept the content objective as written?"
+    ]
+   },
+   {
+    "label": "Policy and curriculum",
+    "items": [
+     "Does this topic sit within what my school, curriculum authority and national policy permit?",
+     "Does the language of instruction match what my institution requires?",
+     "Can I credit subject understanding separately from language accuracy under my assessment policy?"
+    ]
+   },
+   {
+    "label": "Culture, representation and sensitivity",
+    "items": [
+     "Is this topic sensitive for any learner or family in this group?",
+     "Whose perspective does the content assume, and whose is missing?",
+     "Do the examples, names and images reflect my learners?",
+     "Could anything here read as a political or religious position?"
+    ]
+   },
+   {
+    "label": "Access",
+    "items": [
+     "Can the least confident learner still enter the task?",
+     "Is there a route through this for a learner who joins late or misses the input?"
+    ]
+   }
+  ]
+ },
+ "disclaimer": {
+  "heading": "Please read before you teach",
+  "body": [
+   "A planning draft, not an approved lesson. Assembled from what you supplied plus general CLIL structure. Not checked against your curriculum, your institution's policies or your learners' circumstances.",
+   "You are the qualified professional. Verify subject accuracy with a colleague, confirm policy with your school, and judge cultural fit for your learners yourself.",
+   "CLIL Lesson Lab accepts no liability for subject accuracy, policy or contractual compliance, assessment validity, or cultural appropriateness. Material you supply, including its copyright, remains your responsibility."
+  ],
+  "sources": [
+   {
+    "label": "CEFR levels and descriptors, Council of Europe",
+    "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors"
+   },
+   {
+    "label": "European Framework for CLIL Teacher Education, ECML",
+    "url": "https://www.ecml.at/en/Resources/ECML-resources/ID/35"
+   },
+   {
+    "label": "Multilingualism policy, European Commission",
+    "url": "https://education.ec.europa.eu/focus-topics/improving-quality/multilingualism/about-multilingualism-policy"
+   }
+  ]
+ },
+ "grounded": {
+  "brief": [
+   {
+    "claim": "Ancient exchange routes across Central Asia known as the Silk Roads spread foods such as almonds, apricots, peaches, pistachios, rice, herbs and spices, and these became familiar in many parts of the world.",
+    "source": 1
+   },
+   {
+    "claim": "A 13th-century cookbook, Kitab al-tabikh fi al-Maghrib wa al-Andalus, recorded a couscous recipe from Marrakesh, showing the recording and circulation of a North West African dish.",
+    "source": 1
+   },
+   {
+    "claim": "A cookbook compiled in the Iberian Peninsula also included a recipe for couscous.",
+    "source": 1
+   },
+   {
+    "claim": "Leo Africanus, who lived from 1494 to 1554, mentioned couscous and praised it for its taste and nourishment.",
+    "source": 1
+   },
+   {
+    "claim": "Accounts by historians and travellers suggest that couscous spread rapidly across North Africa, the Arabian Peninsula, Europe and other regions.",
+    "source": 1
+   },
+   {
+    "claim": "Markets and bazaars in cities along the Silk Roads gave access to varied regional products, and food products were exported between regions and to distant courts.",
+    "source": 3
+   },
+   {
+    "claim": "Foods were preserved for long-distance transport by drying, salting and freezing, and Khwarazm's watermelons were packed in ice-filled lead containers and exported as far as Baghdad.",
+    "source": 3
+   },
+   {
+    "claim": "Rulers, envoys, merchants and travellers carried foods and food practices with them as they moved along the routes.",
+    "source": 3
+   }
+  ],
+  "misconceptions": [
+   {
+    "learners_think": "Once trade routes connected regions, everyone along the Silk Roads ended up eating the same foods.",
+    "why_it_is_wrong": "A study of ancient bones found that contact along the Silk Roads did not make diets the same, especially between urban communities.",
+    "what_is_correct": "Different communities kept different diets even while foods and recipes were being exchanged; some groups adopted new foods and others did not.",
+    "source": 6
+   }
+  ],
+  "gaps": [
+   "The corpus does not give a ready-made blank map image of the Silk Roads for this age group; the teacher will need to source or draw one.",
+   "The corpus does not explain in learner-friendly detail exactly why couscous spread so fast (only that historians' accounts 'suggest' rapid spread), so the causal reasoning in learners' sentences will rely on the general trade mechanisms from Source 3 rather than a specific cause for couscous itself.",
+   "No simplified or leveled reading version of the cookbook evidence exists in the corpus; the teacher must rewrite the evidence cards in A1 to A2 language themselves.",
+   "The corpus does not provide images of the original cookbooks or of couscous itself; visuals will need to be sourced separately."
+  ],
+  "sources": [
+   {
+    "index": 1,
+    "title": "Esta página ha sido desarrollada y entretenida con el apoyo de:",
+    "url": "https://es.unesco.org/silkroad/node/11114",
+    "publisher": "es.unesco.org",
+    "published": null
+   },
+   {
+    "index": 2,
+    "title": "Impact of cultural and genetic structure on food choices ...",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36375050/",
+    "publisher": "pubmed.ncbi.nlm.nih.gov",
+    "published": "2022-11-22"
+   },
+   {
+    "index": 3,
+    "title": "ISBN 978-92-3-103467-1",
+    "url": "https://en.unesco.org/silkroad/sites/default/files/knowledge-bank-article/vol_IVa%20silk%20road_socio%20economic%20development,%20food%20and%20clothing%20in%20eastern%20iran%20and%20central%20asia.pdf",
+    "publisher": "en.unesco.org",
+    "published": null
+   },
+   {
+    "index": 4,
+    "title": "About the Silk Roads - UNESCO",
+    "url": "https://www.unesco.org/en/silk-roads/about-silk-roads",
+    "publisher": "www.unesco.org",
+    "published": "2026-04-15"
+   },
+   {
+    "index": 5,
+    "title": "The Silk Road Origins of the Foods We Eat",
+    "url": "https://www.ucpress.edu/blog-posts/45550-the-silk-road-origins-of-the-foods-we-eat",
+    "publisher": "www.ucpress.edu",
+    "published": null
+   },
+   {
+    "index": 6,
+    "title": "Compared to nomadic communities, Silk Road cities were ...",
+    "url": "https://source.washu.edu/2018/03/compared-to-nomadic-communities-silk-road-cities-were-urban-food-deserts-study-finds/",
+    "publisher": "source.washu.edu",
+    "published": "2018-03-26"
+   }
+  ],
+  "searched": 6,
+  "usable": 6
+ },
+ "worksheet": {
+  "title": "How Did Couscous Travel? Tracing a Food Along the Silk Roads",
+  "learner_instructions": "Work with your partner. Read the four evidence cards, then complete the chart and sentences using the words and frames in the box below.",
+  "language_help_box": [
+   "KEY WORDS: Silk Roads, trade route, spread, recipe, region, merchant",
+   "FRAME 1 (sequence): First it appeared in a recipe from ___. Then it spread to ___.",
+   "FRAME 2 (cause): People in ___ began to eat couscous because of trade along the Silk Roads.",
+   "FRAME 3 (evidence): This shows that ___ changed their diet because ___. The evidence for this is ___.",
+   "WORD BANK for Part 4: First / then / because / This shows that"
+  ],
+  "parts": [
+   {
+    "number": 1,
+    "heading": "Part 1: Order the Evidence Cards",
+    "instructions": "Read the four evidence cards below. Write the correct order number (1, 2, 3 or 4) in the box next to each card.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "CARD A - Marrakesh cookbook (13th century): 'A cookbook wrote down a recipe for couscous. It came from Marrakesh. This is the earliest record of couscous we have.' Order number: ___",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "CARD B - Iberian Peninsula cookbook: 'A cookbook from the Iberian Peninsula (Spain and Portugal today) also had a recipe for couscous.' Order number: ___",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "CARD C - Leo Africanus (1494-1554): 'Leo Africanus was a writer. He said couscous tasted good and was healthy food.' Order number: ___",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "CARD D - Historians' accounts: 'Historians say couscous spread quickly. It reached North Africa, the Arabian Peninsula, Europe and other regions.' Order number: ___",
+      "response_type": "short answer",
+      "lines": 1
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "heading": "Part 2: Complete the Route Diagram",
+    "instructions": "Use your order from Part 1 to fill in the missing places and dates in the boxes below.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "Box 1: Place = Marrakesh, Date = 13th century",
+      "response_type": "diagram",
+      "lines": 1
+     },
+     {
+      "prompt": "Box 2: Place = ______, Date = ______",
+      "response_type": "diagram",
+      "lines": 2
+     },
+     {
+      "prompt": "Box 3: Place = ______, Date = ______",
+      "response_type": "diagram",
+      "lines": 2
+     },
+     {
+      "prompt": "Box 4: Places = ______, ______, ______ (spread to many regions)",
+      "response_type": "diagram",
+      "lines": 2
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "heading": "Part 3: Match the Words",
+    "instructions": "Draw a line or write the letter to match each word to its meaning.",
+    "assesses": "language",
+    "items": [
+     {
+      "prompt": "Silk Roads",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "trade route",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "spread",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "recipe",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "region",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "merchant",
+      "response_type": "short answer",
+      "lines": 1
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "heading": "Part 4: Complete the Sentences",
+    "instructions": "Choose the correct word from the Word Bank (First / then / because / This shows that) to complete each sentence.",
+    "assesses": "language",
+    "items": [
+     {
+      "prompt": "___ it appeared in a recipe from Marrakesh, ___ it spread to the Iberian Peninsula.",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "People began to eat couscous in new regions ___ of trade along the Silk Roads.",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "___ that couscous moved from one region to many regions.",
+      "response_type": "short answer",
+      "lines": 1
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "heading": "Part 5: Who Changed Their Diet?",
+    "instructions": "Use the frame in the box to answer. Name a group of people and give one piece of evidence.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "This shows that ___ changed their diet because ___. The evidence for this is ___.",
+      "response_type": "extended",
+      "lines": 3
+     },
+     {
+      "prompt": "True or False: Everyone along the Silk Roads ended up eating exactly the same food. Give one reason for your answer.",
+      "response_type": "extended",
+      "lines": 2
+     }
+    ]
+   }
+  ],
+  "exit_check": {
+   "prompt": "Tell your partner one place couscous travelled to, and why.",
+   "note": "Learners may answer in Arabic; teacher listens for one correct place name and one correct reason."
+  }
+ },
+ "answer_key": [
+  {
+   "part": 1,
+   "prompt": "CARD A order number",
+   "answer": "1",
+   "accept_also": "none",
+   "marking_note": "Marrakesh, 13th century, is the earliest written record given."
+  },
+  {
+   "part": 1,
+   "prompt": "CARD B order number",
+   "answer": "2",
+   "accept_also": "none",
+   "marking_note": "Iberian Peninsula cookbook comes after the Marrakesh record."
+  },
+  {
+   "part": 1,
+   "prompt": "CARD C order number",
+   "answer": "3",
+   "accept_also": "none",
+   "marking_note": "Leo Africanus lived 1494-1554, later than the two cookbooks."
+  },
+  {
+   "part": 1,
+   "prompt": "CARD D order number",
+   "answer": "4",
+   "accept_also": "none",
+   "marking_note": "Historians' accounts describe the overall spread, summarising the outcome of the earlier stages."
+  },
+  {
+   "part": 2,
+   "prompt": "Box 2: Place and Date",
+   "answer": "Iberian Peninsula; no exact date given, accept 'later' or 'after the 13th century'",
+   "accept_also": "Spain/Portugal (today's names)",
+   "marking_note": "Accept any wording showing the Iberian Peninsula comes after Marrakesh."
+  },
+  {
+   "part": 2,
+   "prompt": "Box 3: Place and Date",
+   "answer": "Mentioned by Leo Africanus; 1494-1554",
+   "accept_also": "just '1494-1554'",
+   "marking_note": "Accept if learner writes Leo Africanus's name or dates."
+  },
+  {
+   "part": 2,
+   "prompt": "Box 4: Places",
+   "answer": "North Africa, the Arabian Peninsula, Europe",
+   "accept_also": "any two of the three named regions plus 'other regions'",
+   "marking_note": "Accept at least two named regions from the evidence card."
+  },
+  {
+   "part": 3,
+   "prompt": "Silk Roads",
+   "answer": "Old trade paths across land and sea that connected Asia, Africa and Europe.",
+   "accept_also": "any close paraphrase",
+   "marking_note": "Language item: check learner links term to correct definition, not spelling accuracy."
+  },
+  {
+   "part": 3,
+   "prompt": "trade route",
+   "answer": "A path that merchants used to carry goods and food between places.",
+   "accept_also": "close paraphrase",
+   "marking_note": "Language item."
+  },
+  {
+   "part": 3,
+   "prompt": "spread",
+   "answer": "To move from one place to many places over time.",
+   "accept_also": "close paraphrase",
+   "marking_note": "Language item."
+  },
+  {
+   "part": 3,
+   "prompt": "recipe",
+   "answer": "Written instructions that show how to cook a dish.",
+   "accept_also": "close paraphrase",
+   "marking_note": "Language item."
+  },
+  {
+   "part": 3,
+   "prompt": "region",
+   "answer": "A large area of land, often with its own foods and customs.",
+   "accept_also": "close paraphrase",
+   "marking_note": "Language item."
+  },
+  {
+   "part": 3,
+   "prompt": "merchant",
+   "answer": "A person who travels and sells goods, often carrying new foods with them.",
+   "accept_also": "close paraphrase",
+   "marking_note": "Language item."
+  },
+  {
+   "part": 4,
+   "prompt": "First ___, then ___",
+   "answer": "First, then",
+   "accept_also": "none",
+   "marking_note": "Language item: correct sequencing connectors, ignore content spelling errors."
+  },
+  {
+   "part": 4,
+   "prompt": "___ of trade along the Silk Roads",
+   "answer": "because",
+   "accept_also": "none",
+   "marking_note": "Language item: correct cause connector."
+  },
+  {
+   "part": 4,
+   "prompt": "___ that couscous moved...",
+   "answer": "This shows",
+   "accept_also": "This shows that",
+   "marking_note": "Language item: correct evidence connector phrase."
+  },
+  {
+   "part": 5,
+   "prompt": "Name a group and give evidence",
+   "answer": "Example: People in the Iberian Peninsula changed their diet because a cookbook from there recorded a couscous recipe. The evidence for this is the Iberian Peninsula cookbook.",
+   "accept_also": "Any named region (North Africa, Arabian Peninsula, Europe) linked to a matching piece of evidence from the cards",
+   "marking_note": "Content item: mark for a correctly named group AND a correctly linked piece of evidence; ignore grammar mistakes."
+  },
+  {
+   "part": 5,
+   "prompt": "True or False question",
+   "answer": "False. Not everyone ate the same food; some communities kept their own diets even with trade contact.",
+   "accept_also": "Any answer stating diets stayed different despite contact",
+   "marking_note": "Content item: checks the misconception is corrected, not sentence accuracy."
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Silk Roads",
+   "definition": "Old trade paths across land and sea that connected Asia, Africa and Europe.",
+   "part_of_speech": "noun (proper)",
+   "pronunciation_note": "Stress on 'Silk', 'Roads' rhymes with 'codes'.",
+   "first_language_space": true
+  },
+  {
+   "term": "trade route",
+   "definition": "A path that merchants used to carry goods and food between places.",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "Stress on 'trade'.",
+   "first_language_space": true
+  },
+  {
+   "term": "spread",
+   "definition": "To move from one place to many places over time.",
+   "part_of_speech": "verb",
+   "pronunciation_note": "One syllable, rhymes with 'bread'.",
+   "first_language_space": true
+  },
+  {
+   "term": "recipe",
+   "definition": "Written instructions that show how to cook a dish.",
+   "part_of_speech": "noun",
+   "pronunciation_note": "Silent 'p' sound is not present; say 'RES-i-pee'.",
+   "first_language_space": true
+  },
+  {
+   "term": "region",
+   "definition": "A large area of land, often with its own foods and customs.",
+   "part_of_speech": "noun",
+   "pronunciation_note": "Soft 'g' sound like 'j'; often mispronounced with a hard 'g'.",
+   "first_language_space": true
+  },
+  {
+   "term": "merchant",
+   "definition": "A person who travels and sells goods, often carrying new foods with them.",
+   "part_of_speech": "noun",
+   "pronunciation_note": "'ch' sound may come out as 'sh'; practise 'mer-CHANT'.",
+   "first_language_space": true
+  }
+ ],
+ "teacher_script": [
+  "Look at the map. This is the story of one food: couscous. Let's find out where it started.",
+  "First, a cookbook from Marrakesh wrote down a couscous recipe, in the 13th century. Point to Marrakesh.",
+  "Then, another cookbook, from the Iberian Peninsula, also had a couscous recipe. Point to the Iberian Peninsula.",
+  "Later, a writer called Leo Africanus, who lived from 1494 to 1554, said couscous tasted good and was healthy.",
+  "Historians say couscous then spread to North Africa, the Arabian Peninsula, Europe and other regions - but not everyone started eating exactly the same food.",
+  "Now, with your partner, order your evidence cards, complete your chart, and write your three sentences using the frames on your sheet."
+ ],
+ "verification": {
+  "checks": [
+   {
+    "name": "Every subject claim traces to a source",
+    "status": "pass",
+    "note": "All 8 subject_brief claims map cleanly to Source 1 or Source 3 content; no invented facts found in the brief itself."
+   },
+   {
+    "name": "No fact contradicts the corpus",
+    "status": "fail",
+    "note": "The worksheet answer key asserts a definite chronological order in which the Iberian Peninsula cookbook (Card B) comes after the 13th-century Marrakesh cookbook (Card A). Source 1 explicitly states the Iberian cookbook's date is 'not stated.' Presenting this as a graded, correct answer teaches an unsupported sequence as settled fact."
+   },
+   {
+    "name": "No outdated or disputed science presented as settled",
+    "status": "pass",
+    "note": "The Source 6 finding (diets did not homogenise) is correctly framed as a study result and used to correct a misconception, not overstated as universal law."
+   },
+   {
+    "name": "Objectives achievable in the lesson length",
+    "status": "flag",
+    "note": "45 minutes must cover input/story, 4-card reading and ordering, route diagram, 6-term vocabulary matching, connector gap-fill, extended cause-and-effect writing, and an exit check, for A1-A2 learners. This is a heavy load; teacher should confirm realistic pacing or trim a section."
+   },
+   {
+    "name": "Cognitive demand matches the stated Bloom level",
+    "status": "flag",
+    "note": "Parts 1-4 are largely sequencing/matching/gap-fill (Remember-Understand). Only Part 5 (naming a group + evidence, true/false with reason) approaches Analyse. The bulk of graded work does not yet demonstrate analysis-level thinking."
+   },
+   {
+    "name": "Vocabulary load within the cap",
+    "status": "pass",
+    "note": "Exactly 6 new terms taught (Silk Roads, trade route, spread, recipe, region, merchant), matching the stated cap."
+   },
+   {
+    "name": "Language on the worksheet matches the support level",
+    "status": "flag",
+    "note": "Evidence cards are appropriately simplified, but Part 5's frame ('This shows that ___ changed their diet because ___. The evidence for this is ___.') is a compound, multi-clause structure that may be demanding for A1-A2 learners without more scaffolding than a single word bank."
+   },
+   {
+    "name": "Task genuinely requires the target language",
+    "status": "pass",
+    "note": "Ordering, labelling, and sentence-writing require English production and reading; only the exit check intentionally allows Arabic, which is reasonable for a quick content check."
+   },
+   {
+    "name": "Task outcome is concrete, not a verb list",
+    "status": "pass",
+    "note": "Outcome is a specific artefact: a labelled Food Journey Chart plus three written sentences, not an abstract objective."
+   },
+   {
+    "name": "Every worksheet item has an answer",
+    "status": "flag",
+    "note": "Part 3 'Match the Words' worksheet items list only the terms, with no printed set of definitions/options for learners to match against, even though the answer key supplies full definitions. As designed, students have nothing to match to on the page itself."
+   },
+   {
+    "name": "Content and language assessed separately",
+    "status": "pass",
+    "note": "Each worksheet item is explicitly tagged 'assesses: content' or 'assesses: language', and the answer key marking notes reinforce this separation (e.g. 'ignore grammar mistakes' for content items)."
+   },
+   {
+    "name": "Age and register appropriate for the learner group",
+    "status": "pass",
+    "note": "Topic (a food's journey), visuals, and sentence-level register suit ages 11-14 at A1-A2; no tonal or content concerns."
+   }
+  ],
+  "unsupported_claims": [
+   {
+    "claim": "The Iberian Peninsula cookbook (Kitab fadalat al-khiwan) is chronologically placed after the 13th-century Marrakesh cookbook, and this order is used as a graded 'correct' answer.",
+    "why": "Source 1 states the date of this cookbook is 'not stated.' The lesson materials invent a sequence not present in the corpus and treat it as a fact to be marked right or wrong."
+   },
+   {
+    "claim": "Part 5's model answer implies a direct causal link between a single piece of recipe evidence and a whole group 'changing their diet' because of trade.",
+    "why": "The corpus only says recipes were 'recorded' and dishes 'spread'; it does not establish that recording a recipe caused a population's diet to change. This is a plausible inference but stated with more certainty than the sources support."
+   }
+  ],
+  "teacher_must_confirm": [
+   "Whether it is acceptable to teach the Iberian Peninsula cookbook as coming 'after' the Marrakesh cookbook, given the source says its date is not stated — consider rewording the card/answer key to remove the false certainty.",
+   "Whether all five worksheet parts plus the main task and exit check genuinely fit in 45 minutes for this A1-A2 group, or whether one section (e.g. Part 3 or Part 4) should be cut or set as homework.",
+   "Whether Part 3's matching activity needs an added definitions list/word bank printed on the worksheet itself, since currently only the terms are shown to students.",
+   "Whether the class can handle the compound causal sentence frame in Part 5 unaided, or whether it needs a fill-in skeleton with fewer blanks per sentence.",
+   "Whether the causal framing in Part 5 ('changed their diet because...') should be softened to 'may have changed' to match the corpus's more cautious language ('suggest,' 'may have')."
+  ]
+ },
+ "generation": {
+  "mode": "grounded",
+  "write_model": "claude_sonnet_5_0",
+  "verify_model": "claude_sonnet_5_0",
+  "note": "Subject content written from 6 retrieved sources and audited by a second pass. Claims carry source numbers. Anything the audit could not confirm is flagged rather than hidden."
+ },
+ "share_token": "661f6593826c4e6d8552c2085303d41b"
+}

@@ -1,0 +1,910 @@
+{
+ "id": "a5cc13352eea",
+ "schema_version": "0.1.0-skeleton",
+ "created_at": "2026-09-08T04:06:23+00:00",
+ "mode": "one_off",
+ "header": {
+  "title": "why metabolic rate increases during exercise",
+  "subject": "Biology",
+  "course_name": "Year 11 Biology through English",
+  "lesson_number": 6,
+  "lesson_total": 14,
+  "learner_group": "Upper secondary (ages 14 to 18)",
+  "purpose": "Required by the curriculum",
+  "target_language": "English",
+  "first_language": "Spanish",
+  "support_label": "Can follow with some support",
+  "support_cefr": "around A2 to B1",
+  "setting": "Online",
+  "format": "Group class",
+  "minutes": 50,
+  "teacher_role": "Language teacher"
+ },
+ "sequence": {
+  "heading": "Where this lesson sits",
+  "carried_forward": [
+   "Last lesson covered: the structure and function of mitochondria."
+  ],
+  "position": "Lesson 6 of 14"
+ },
+ "objectives": {
+  "bloom_level": "Analyse",
+  "bloom_available": [
+   "Understand",
+   "Apply",
+   "Analyse",
+   "Evaluate",
+   "Create"
+  ],
+  "content": [
+   {
+    "bloom": "Analyse",
+    "text": "By the end of the lesson, learners will be able to analyse the link between increased ATP demand in muscles and the rise in oxygen consumption and heart rate during exercise.",
+    "note": "Learners correctly sequence and label the rest-exercise-recovery diagram, showing the cause (ATP demand) leading to the effect (higher oxygen consumption/heart rate)."
+   },
+   {
+    "bloom": "Analyse",
+    "text": "By the end of the lesson, learners will be able to analyse why heart rate and breathing remain elevated after exercise stops, by explaining the connection to EPOC and continued oxygen use for ATP resynthesis.",
+    "note": "In the group poster and short presentation, learners produce a correct cause-effect sentence for the recovery phase using the term EPOC and at least one supporting reason from the input."
+   }
+  ],
+  "language": [
+   {
+    "strand": "Language of learning",
+    "text": "Learners will use the words metabolic rate, ATP, resynthesize, oxidative phosphorylation, oxygen consumption, cardiorespiratory system, EPOC and heart rate to describe what happens to the body during and after exercise.",
+    "note": ""
+   },
+   {
+    "strand": "Language for learning",
+    "text": "Learners will use cause-and-effect language (because, so, as a result, this happens because) to link a biological cause to its effect on heart rate or oxygen consumption.",
+    "note": ""
+   },
+   {
+    "strand": "Language through learning",
+    "text": "While building their timeline poster, learners will notice and reuse phrases such as 'stays high' and 'returns to normal' that emerge naturally from comparing the three phases.",
+    "note": ""
+   }
+  ],
+  "learning_skill": "Learners will work with a partner or group and report a shared answer."
+ },
+ "timings": [
+  {
+   "stage": "Bridge back",
+   "minutes": 5
+  },
+  {
+   "stage": "Pre-task scaffold",
+   "minutes": 10
+  },
+  {
+   "stage": "Content input",
+   "minutes": 10
+  },
+  {
+   "stage": "Main task",
+   "minutes": 18
+  },
+  {
+   "stage": "Report and check",
+   "minutes": 7
+  }
+ ],
+ "stages": [
+  {
+   "number": 1,
+   "name": "Bridge back",
+   "minutes": 5,
+   "purpose": "Make the link to prior learning explicit, so this lesson is felt as part of a sequence.",
+   "teacher_does": [
+    "Show one image or object from the previous lesson and ask learners what they remember.",
+    "Record two or three remembered terms where everyone can see them.",
+    "Say in one sentence how today follows on."
+   ],
+   "learners_do": [
+    "In pairs, recall two things from last time before anyone answers aloud.",
+    "Add one term to the shared list."
+   ],
+   "language_focus": "Recall and naming. Accept the first language here if it speeds up retrieval.",
+   "watch_for": "Do not let this become a full review lesson. It is a doorway, not a room."
+  },
+  {
+   "number": 2,
+   "name": "Pre-task scaffold",
+   "minutes": 10,
+   "purpose": "Remove the language barrier before the content arrives, not during it.",
+   "teacher_does": [
+    "Pre-teach no more than eight key Biology terms, each with a visual or a first-language gloss.",
+    "Display the sentence frames from the language bank and model one aloud.",
+    "Check understanding with a quick non-verbal response, such as pointing, holding up fingers or matching."
+   ],
+   "learners_do": [
+    "Match terms to images with a partner, then compare with another pair.",
+    "Say one frame aloud once, so the first use is not during the task."
+   ],
+   "language_focus": "Language of learning. Up to 250 words of new text with a glossary.",
+   "watch_for": "If learners cannot use a frame here, they will not use it in the task. Slow down rather than continue."
+  },
+  {
+   "number": 3,
+   "name": "Content input",
+   "minutes": 10,
+   "purpose": "Start by showing that contracting muscle needs a constant ATP supply but only stores a little, so it must be resynthesized fast during exercise [1]. Explain that this resynthesis mostly happens through oxidative phosphorylation in mitochondria, which needs oxygen delivered by the cardiorespiratory system, so heart rate and breathing rise together with ATP demand [1,4]. Show that metabolic rate can rise to 5-15 times resting level during exercise [2]. Then introduce EPOC: after exercise stops, oxygen consumption and metabolic rate stay above resting level, with a main phase of about 2 hours and a smaller effect up to 48 hours, because the body is still resynthesizing ATP and restoring systems to rest [4,6].",
+   "teacher_does": [
+    "Simple ATP-ADP cycle diagram with the word 'resynthesize'",
+    "Three-phase timeline sketch: REST - EXERCISE - RECOVERY (unlabelled, to be completed later)",
+    "Key vocabulary list with the 8 target terms",
+    "Short graph shape showing oxygen consumption rising then staying elevated after exercise stops"
+   ],
+   "learners_do": [
+    "Answer: Why does the body need more ATP during exercise? (expected: Because muscles are contracting more and ATP stores are small, so ATP must be resynthesized quickly [1].)",
+    "Answer: What does the cardiorespiratory system do during exercise? (expected: It delivers more oxygen to the muscles so oxidative phosphorylation can resynthesize ATP faster [1,4].)",
+    "Answer: What happens to oxygen consumption right after exercise stops? (expected: It stays higher than resting level for a while; this is called EPOC [4,6].)"
+   ],
+   "language_focus": "Receptive. Learners need to understand, not yet to produce.",
+   "watch_for": "Long unbroken teacher talk is the most common failure point in CLIL input. Chunk it."
+  },
+  {
+   "number": 4,
+   "name": "Main task: EPOC Timeline Poster",
+   "minutes": 18,
+   "purpose": "A shared online three-phase timeline diagram (rest, exercise, recovery) that each group labels and annotates with one cause-effect sentence per phase, explaining why heart rate and oxygen consumption change, especially why they stay high in recovery.",
+   "teacher_does": [
+    "Model one completed phase (exercise) on screen, thinking aloud with a sentence frame.",
+    "Assign learners to breakout rooms of 3-4 with a shared slide/doc containing the blank three-phase timeline.",
+    "Circulate through breakout rooms to prompt with checking questions and vocabulary reminders.",
+    "Bring groups back and have each group share their recovery-phase sentence on screen.",
+    "Ask the class to compare sentences and agree on the best explanation of EPOC as a whole class."
+   ],
+   "learners_do": [
+    "In your group, look at the blank timeline: rest, exercise, recovery.",
+    "For each phase, decide what happens to heart rate and oxygen consumption.",
+    "Write one sentence per phase using a frame from the language bank and at least one vocabulary term.",
+    "Agree as a group on your best sentence for the recovery phase, using the word EPOC.",
+    "Choose one member to present your recovery sentence to the class."
+   ],
+   "language_focus": "Learners must write and justify cause-effect sentences using the target vocabulary and frames, so the reasoning cannot be shown through drawing alone.",
+   "watch_for": "If groups fall silent, the language support is missing, not the motivation.",
+   "differentiation": [
+    "Less confident: Give a partly completed timeline with the rest and exercise sentences already modelled, so the group only needs to complete the recovery phase using the frame and word bank.",
+    "More confident: Ask these groups to add a second sentence linking their recovery explanation to oxidative phosphorylation or ATP resynthesis, without using the frame.",
+    "Mixed group: Pair a more confident learner with less confident peers in each breakout room and assign the confident learner as 'vocabulary checker' before the group finalises its sentence."
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Report and check",
+   "minutes": 7,
+   "purpose": "Make learning visible, and gather evidence against both objectives separately.",
+   "teacher_does": [
+    "Take one report per group, holding others to listening with a specific question.",
+    "Give one piece of content feedback and one piece of language feedback, clearly labelled as such.",
+    "Record who met the content objective and who met the language objective. They are not the same list."
+   ],
+   "learners_do": [
+    "Report the outcome using the frames.",
+    "Complete a one-question exit check on the content, answerable in the first language if needed."
+   ],
+   "language_focus": "Language through learning. Capture what emerged and reuse it next lesson.",
+   "watch_for": "Judging content understanding through language accuracy is the classic CLIL assessment error. Separate them.",
+   "evidence": [
+    "Content evidence: the exit check and the correctness of the task outcome.",
+    "Language evidence: use of the target frames during the task and the report."
+   ]
+  }
+ ],
+ "language_bank": {
+  "heading": "Language support bank",
+  "text_load": "Up to 250 words of new text with a glossary",
+  "first_language_policy": "First language for clarifying only",
+  "functions": [
+   "explaining a cause and its effect on the body",
+   "comparing three time phases (rest, exercise, recovery)",
+   "justifying a claim using evidence from the input"
+  ],
+  "frames": [
+   "Heart rate increases because the muscles need more ___.",
+   "During exercise, oxygen consumption rises because ATP must be ___.",
+   "After exercise stops, ___ stays high because the body is still repaying an oxygen ___.",
+   "This is called ___, and it can last for ___."
+  ],
+  "vocabulary_note": "8 terms, within the cap for this support level. Add a first-language gloss beside each one.",
+  "pronunciation_watch": [
+   "oxidative phosphorylation - long word, stress falls on '-da-' and '-la-tion', likely to be broken into syllables incorrectly",
+   "cardiorespiratory - long compound word, learners may stress the wrong syllable",
+   "resynthesize - stress falls on 'thes', learners may stress 're-' instead"
+  ],
+  "vocabulary": [
+   {
+    "term": "metabolic rate",
+    "definition": "how fast the body uses energy at a given moment",
+    "example_sentence": "Metabolic rate goes up quickly when you start running.",
+    "visual": "a simple speedometer-style dial labelled 'low' to 'high'",
+    "source": 2
+   },
+   {
+    "term": "ATP (adenosine triphosphate)",
+    "definition": "the small energy molecule that muscles use to contract",
+    "example_sentence": "Muscles need a constant supply of ATP to keep contracting.",
+    "visual": "a labelled diagram of an ATP molecule turning into ADP",
+    "source": 1
+   },
+   {
+    "term": "resynthesize",
+    "definition": "to make something again after it has been broken down",
+    "example_sentence": "ATP must be resynthesized continually during exercise.",
+    "visual": "a cycle arrow diagram: ATP → ADP → ATP",
+    "source": 1
+   },
+   {
+    "term": "oxidative phosphorylation",
+    "definition": "a process inside mitochondria that uses oxygen to make ATP",
+    "example_sentence": "Oxidative phosphorylation needs a good oxygen supply to make ATP.",
+    "visual": "a simplified mitochondrion diagram with an oxygen arrow going in and an ATP arrow coming out",
+    "source": 4
+   },
+   {
+    "term": "oxygen consumption",
+    "definition": "the amount of oxygen the body uses over time",
+    "example_sentence": "Oxygen consumption rises sharply at the start of exercise.",
+    "visual": "a line graph rising during exercise",
+    "source": 4
+   },
+   {
+    "term": "cardiorespiratory system",
+    "definition": "the heart, lungs and blood vessels working together to deliver oxygen",
+    "example_sentence": "The cardiorespiratory system works harder during exercise to deliver oxygen to muscles.",
+    "visual": "a simple diagram of heart, lungs and blood vessels connected by arrows to a muscle",
+    "source": 4
+   },
+   {
+    "term": "EPOC (excess post-exercise oxygen consumption)",
+    "definition": "the extra oxygen use and higher metabolic rate that continues after exercise stops",
+    "example_sentence": "EPOC explains why breathing stays fast for a while after you stop running.",
+    "visual": "a three-phase graph: rest, exercise, recovery, with the recovery section shaded and labelled EPOC",
+    "source": 6
+   },
+   {
+    "term": "heart rate",
+    "definition": "the number of times the heart beats per minute",
+    "example_sentence": "Heart rate increases so more oxygen can reach the working muscles.",
+    "visual": "a heart icon with a rising pulse line beside it",
+    "source": 4
+   }
+  ]
+ },
+ "materials": [
+  "One visual for the key subject idea, such as a diagram, photograph or short clip",
+  "Printed or on-screen sentence frames, visible for the whole lesson",
+  "A short text or input source of about the length noted above (up to 250 words of new text with a glossary)",
+  "A simple recording sheet or shared document for the task outcome",
+  "A breakout room plan or turn-taking order"
+ ],
+ "compensation": {
+  "blocks": [
+   {
+    "heading": "Subject accuracy support",
+    "why": "Your training is in language teaching, so this covers the Biology knowledge behind why metabolic rate increases during exercise.",
+    "items": [
+     "State the Biology idea in one sentence you could defend to a specialist. If you cannot, the lesson is not ready.",
+     "Name the two or three common misconceptions about why metabolic rate increases during exercise, and how the task will surface them.",
+     "Check every figure, date, name, unit and process against a source you can name.",
+     "Confirm where why metabolic rate increases during exercise sits in the subject curriculum, so this builds on what learners met in their first language.",
+     "Ask a subject colleague to read the content objective and the input section only. Five minutes, most of the risk gone."
+    ]
+   }
+  ]
+ },
+ "looking_ahead": {
+  "heading": "Looking ahead",
+  "next_topic": "how the body recovers after exercise",
+  "items": [
+   "Next lesson: how the body recovers after exercise. Say this to learners at the end so the sequence is visible.",
+   "Carry the language that emerged into the next lesson. That is the through-learning strand.",
+   "Note anything you cut. It opens the next bridge."
+  ],
+  "reflection_prompt": "Two minutes on the reflection form changes the next package."
+ },
+ "review_checklist": {
+  "heading": "Before you teach, check with a colleague",
+  "groups": [
+   {
+    "label": "Subject accuracy",
+    "items": [
+     "Is every subject claim correct and current for my curriculum?",
+     "Would a specialist accept the content objective as written?"
+    ]
+   },
+   {
+    "label": "Policy and curriculum",
+    "items": [
+     "Does this topic sit within what my school, curriculum authority and national policy permit?",
+     "Does the language of instruction match what my institution requires?",
+     "Can I credit subject understanding separately from language accuracy under my assessment policy?"
+    ]
+   },
+   {
+    "label": "Culture, representation and sensitivity",
+    "items": [
+     "Is this topic sensitive for any learner or family in this group?",
+     "Whose perspective does the content assume, and whose is missing?",
+     "Do the examples, names and images reflect my learners?",
+     "Could anything here read as a political or religious position?"
+    ]
+   },
+   {
+    "label": "Access",
+    "items": [
+     "Can the least confident learner still enter the task?",
+     "Is there a route through this for a learner who joins late or misses the input?"
+    ]
+   }
+  ]
+ },
+ "disclaimer": {
+  "heading": "Please read before you teach",
+  "body": [
+   "A planning draft, not an approved lesson. Assembled from what you supplied plus general CLIL structure. Not checked against your curriculum, your institution's policies or your learners' circumstances.",
+   "You are the qualified professional. Verify subject accuracy with a colleague, confirm policy with your school, and judge cultural fit for your learners yourself.",
+   "CLIL Lesson Lab accepts no liability for subject accuracy, policy or contractual compliance, assessment validity, or cultural appropriateness. Material you supply, including its copyright, remains your responsibility."
+  ],
+  "sources": [
+   {
+    "label": "CEFR levels and descriptors, Council of Europe",
+    "url": "https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors"
+   },
+   {
+    "label": "European Framework for CLIL Teacher Education, ECML",
+    "url": "https://www.ecml.at/en/Resources/ECML-resources/ID/35"
+   },
+   {
+    "label": "Multilingualism policy, European Commission",
+    "url": "https://education.ec.europa.eu/focus-topics/improving-quality/multilingualism/about-multilingualism-policy"
+   }
+  ]
+ },
+ "grounded": {
+  "brief": [
+   {
+    "claim": "Muscle cells store only a small amount of ATP, so ATP must be continually resynthesized for muscle contraction to continue.",
+    "source": 1
+   },
+   {
+    "claim": "As exercise intensity increases, the rate at which ATP is used increases greatly, so the pathways that resynthesize ATP must work faster.",
+    "source": 1
+   },
+   {
+    "claim": "Oxidative phosphorylation resynthesizes ATP using oxygen that is delivered to the muscle by the respiratory and cardiovascular systems.",
+    "source": 1
+   },
+   {
+    "claim": "Muscular exercise can increase metabolism to 5 to 15 times the resting rate to supply energy for muscle contraction.",
+    "source": 2
+   },
+   {
+    "claim": "The harder the muscles work, the faster the heart beats, because this supports greater oxygen delivery to the working muscles.",
+    "source": 4
+   },
+   {
+    "claim": "ATP is generated by mitochondria through oxidative phosphorylation, a process that consumes oxygen.",
+    "source": 4
+   },
+   {
+    "claim": "Excess post-exercise oxygen consumption (EPOC) is a rise in metabolic rate above resting level that continues after exercise has stopped, typically for up to a few hours.",
+    "source": 4
+   },
+   {
+    "claim": "EPOC has two phases: one lasting about 2 hours, and a smaller, more prolonged effect that can last up to 48 hours.",
+    "source": 6
+   }
+  ],
+  "misconceptions": [
+   {
+    "learners_think": "Heart rate and breathing return to normal the moment exercise stops.",
+    "why_it_is_wrong": "Metabolic rate stays above its resting level for a period after exercise ends, so the body still needs extra oxygen.",
+    "what_is_correct": "This continued elevation is called EPOC (excess post-exercise oxygen consumption) and can last from about 2 hours up to 48 hours.",
+    "source": 6
+   },
+   {
+    "learners_think": "Lactate is only made without oxygen and it is what causes muscle fatigue.",
+    "why_it_is_wrong": "Lactate is actually an important fuel that muscles can use for energy, not simply a waste product that causes tiredness.",
+    "what_is_correct": "Lactate produced during contraction is an important energy-yielding substrate for the muscle.",
+    "source": 3
+   },
+   {
+    "learners_think": "The body only starts using fat for energy once carbohydrate has run out.",
+    "why_it_is_wrong": "Fat and carbohydrate are used together during exercise, with the balance depending on exercise intensity, not on carbohydrate running out first.",
+    "what_is_correct": "At lower intensities lipid oxidation dominates, and reliance on carbohydrate increases as intensity rises.",
+    "source": 1
+   }
+  ],
+  "gaps": [
+   "The corpus does not explain the specific mechanism linking breathing rate (as opposed to heart rate) to recovery oxygen demand, so the lesson focuses mainly on heart rate and oxygen consumption for breathing-related claims.",
+   "No source provides a ready-made labelled diagram or graph image; the teacher will need to sketch the three-phase timeline based on the described data.",
+   "The corpus does not give age-specific classroom data (e.g. typical teenage heart rate values), so no numerical heart-rate figures for learners this age are included."
+  ],
+  "sources": [
+   {
+    "index": 1,
+    "title": "Exercise Metabolism: Fuels for the Fire - PMC - NIH",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6071548/",
+    "publisher": "pmc.ncbi.nlm.nih.gov",
+    "published": null
+   },
+   {
+    "index": 2,
+    "title": "Physiological Responses to Exercise in the Heat - NCBI - NIH",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK236240/",
+    "publisher": "www.ncbi.nlm.nih.gov",
+    "published": null
+   },
+   {
+    "index": 3,
+    "title": "Common student misconceptions in exercise physiology and biochemistry | Advances in Physiology Education | American Physiological Society",
+    "url": "https://journals.physiology.org/doi/full/10.1152/advan.00095.2007",
+    "publisher": "journals.physiology.org",
+    "published": "2008-06-01"
+   },
+   {
+    "index": 4,
+    "title": "The Mystery of Energy Compensation | Physiological and Biochemical Zoology: Vol 94, No 6",
+    "url": "https://www.journals.uchicago.edu/doi/10.1086/716467",
+    "publisher": "www.journals.uchicago.edu",
+    "published": "2021-11-01"
+   },
+   {
+    "index": 5,
+    "title": "Controversies in Metabolism",
+    "url": "https://www.unm.edu/~lkravitz/Article%20folder/metabolismcontroversy.html",
+    "publisher": "www.unm.edu",
+    "published": null
+   },
+   {
+    "index": 6,
+    "title": "Physical activity and resting metabolic rate | Proceedings of the ...",
+    "url": "https://www.cambridge.org/core/journals/proceedings-of-the-nutrition-society/article/physical-activity-and-resting-metabolic-rate/5A95292BD09F2716187EA51179CC7381",
+    "publisher": "www.cambridge.org",
+    "published": "2003-08-24"
+   }
+  ],
+  "searched": 6,
+  "usable": 6
+ },
+ "worksheet": {
+  "title": "Why Does Your Heart Keep Racing After You Stop Running?",
+  "learner_instructions": "Work through Parts 1-5 using the vocabulary and sentence frames in the box below. You can look back at the board notes and your group poster to help you.",
+  "language_help_box": [
+   "Key words: metabolic rate, ATP, resynthesize, oxidative phosphorylation, oxygen consumption, cardiorespiratory system, EPOC, heart rate",
+   "Frame 1: Heart rate increases because the muscles need more ___.",
+   "Frame 2: During exercise, oxygen consumption rises because ATP must be ___.",
+   "Frame 3: After exercise stops, ___ stays high because the body is still repaying an oxygen ___.",
+   "Frame 4: This is called ___, and it can last for ___.",
+   "Connector words: because / so / as a result / this happens because"
+  ],
+  "parts": [
+   {
+    "number": 1,
+    "heading": "Match the words",
+    "instructions": "Draw a line (or write the letter) to match each term to its correct definition.",
+    "assesses": "language",
+    "items": [
+     {
+      "prompt": "metabolic rate",
+      "response_type": "label",
+      "lines": 1
+     },
+     {
+      "prompt": "ATP",
+      "response_type": "label",
+      "lines": 1
+     },
+     {
+      "prompt": "resynthesize",
+      "response_type": "label",
+      "lines": 1
+     },
+     {
+      "prompt": "oxidative phosphorylation",
+      "response_type": "label",
+      "lines": 1
+     },
+     {
+      "prompt": "oxygen consumption",
+      "response_type": "label",
+      "lines": 1
+     },
+     {
+      "prompt": "cardiorespiratory system",
+      "response_type": "label",
+      "lines": 1
+     },
+     {
+      "prompt": "EPOC",
+      "response_type": "label",
+      "lines": 1
+     },
+     {
+      "prompt": "heart rate",
+      "response_type": "label",
+      "lines": 1
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "heading": "Analyse the three phases",
+    "instructions": "Complete the table. For each phase, say what happens to heart rate and oxygen consumption, and explain why in a short phrase.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "REST - Heart rate / Oxygen consumption / Why",
+      "response_type": "table",
+      "lines": 3
+     },
+     {
+      "prompt": "EXERCISE - Heart rate / Oxygen consumption / Why",
+      "response_type": "table",
+      "lines": 3
+     },
+     {
+      "prompt": "RECOVERY - Heart rate / Oxygen consumption / Why",
+      "response_type": "table",
+      "lines": 3
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "heading": "Complete the sentences",
+    "instructions": "Fill each gap with one word from the language help box. Use each frame correctly.",
+    "assesses": "language",
+    "items": [
+     {
+      "prompt": "Heart rate increases because the muscles need more ___.",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "During exercise, oxygen consumption rises because ATP must be ___.",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "After exercise stops, ___ stays high because the body is still repaying an oxygen ___.",
+      "response_type": "short answer",
+      "lines": 1
+     },
+     {
+      "prompt": "This is called ___, and it can last for ___.",
+      "response_type": "short answer",
+      "lines": 1
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "heading": "True or false? Correct the mistake",
+    "instructions": "Write T or F. If the sentence is false, rewrite it correctly using ideas from the lesson.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "Heart rate and breathing return to normal the moment exercise stops.",
+      "response_type": "short answer",
+      "lines": 2
+     },
+     {
+      "prompt": "Lactate is only made without oxygen and it only causes muscle fatigue.",
+      "response_type": "short answer",
+      "lines": 2
+     },
+     {
+      "prompt": "The body only starts using fat for energy once carbohydrate has run out.",
+      "response_type": "short answer",
+      "lines": 2
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "heading": "Explain EPOC",
+    "instructions": "In 2-3 sentences, explain why heart rate and oxygen consumption stay high after exercise stops. Use the word EPOC and at least one reason from the lesson.",
+    "assesses": "content",
+    "items": [
+     {
+      "prompt": "Why do heart rate and oxygen consumption stay high after exercise stops?",
+      "response_type": "extended",
+      "lines": 4
+     }
+    ]
+   }
+  ],
+  "exit_check": {
+   "prompt": "In one sentence (Spanish is fine), why does your breathing stay fast for a while after you stop running?",
+   "note": "Accept an answer in Spanish or English; the idea of continued oxygen use/EPOC is what matters, not perfect wording."
+  }
+ },
+ "answer_key": [
+  {
+   "part": 1,
+   "prompt": "metabolic rate",
+   "answer": "how fast the body uses energy at a given moment",
+   "accept_also": "any close paraphrase mentioning speed of energy use",
+   "marking_note": "language item - checks recognition of definition, not biological depth"
+  },
+  {
+   "part": 1,
+   "prompt": "ATP",
+   "answer": "the small energy molecule that muscles use to contract",
+   "accept_also": "answers mentioning 'energy molecule' or 'fuel for muscles'",
+   "marking_note": "language item"
+  },
+  {
+   "part": 1,
+   "prompt": "resynthesize",
+   "answer": "to make something again after it has been broken down",
+   "accept_also": "'remake' or 'rebuild'",
+   "marking_note": "language item"
+  },
+  {
+   "part": 1,
+   "prompt": "oxidative phosphorylation",
+   "answer": "a process inside mitochondria that uses oxygen to make ATP",
+   "accept_also": "any answer mentioning mitochondria + oxygen + ATP",
+   "marking_note": "language item"
+  },
+  {
+   "part": 1,
+   "prompt": "oxygen consumption",
+   "answer": "the amount of oxygen the body uses over time",
+   "accept_also": "'how much oxygen you use'",
+   "marking_note": "language item"
+  },
+  {
+   "part": 1,
+   "prompt": "cardiorespiratory system",
+   "answer": "the heart, lungs and blood vessels working together to deliver oxygen",
+   "accept_also": "mentions of heart+lungs+blood vessels",
+   "marking_note": "language item"
+  },
+  {
+   "part": 1,
+   "prompt": "EPOC",
+   "answer": "the extra oxygen use and higher metabolic rate that continues after exercise stops",
+   "accept_also": "'staying high after exercise'",
+   "marking_note": "language item"
+  },
+  {
+   "part": 1,
+   "prompt": "heart rate",
+   "answer": "the number of times the heart beats per minute",
+   "accept_also": "'how fast the heart beats'",
+   "marking_note": "language item"
+  },
+  {
+   "part": 2,
+   "prompt": "REST",
+   "answer": "Heart rate: normal/resting level. Oxygen consumption: resting level. Why: no extra ATP demand from muscles.",
+   "accept_also": "any wording showing both stay at baseline because muscles are not working hard",
+   "marking_note": "content item - checks understanding of baseline state"
+  },
+  {
+   "part": 2,
+   "prompt": "EXERCISE",
+   "answer": "Heart rate: increases. Oxygen consumption: increases, up to 5-15 times resting level. Why: muscles need more ATP, resynthesized by oxidative phosphorylation, which needs more oxygen delivered by the cardiorespiratory system.",
+   "accept_also": "answers that link increased ATP demand to increased oxygen delivery",
+   "marking_note": "content item - core Analyse objective 1"
+  },
+  {
+   "part": 2,
+   "prompt": "RECOVERY",
+   "answer": "Heart rate: stays above resting level for a while before returning to normal. Oxygen consumption: stays high (EPOC) - main phase about 2 hours, smaller effect up to 48 hours. Why: body still resynthesizing ATP and restoring systems to rest.",
+   "accept_also": "any answer naming EPOC and giving at least one reason for continued oxygen use",
+   "marking_note": "content item - core Analyse objective 2"
+  },
+  {
+   "part": 3,
+   "prompt": "Heart rate increases because the muscles need more ___.",
+   "answer": "oxygen",
+   "accept_also": "'ATP' also acceptable",
+   "marking_note": "language item - checks correct word choice in cause-effect frame"
+  },
+  {
+   "part": 3,
+   "prompt": "During exercise, oxygen consumption rises because ATP must be ___.",
+   "answer": "resynthesized",
+   "accept_also": "'made again' as a paraphrase",
+   "marking_note": "language item"
+  },
+  {
+   "part": 3,
+   "prompt": "After exercise stops, ___ stays high because the body is still repaying an oxygen ___.",
+   "answer": "oxygen consumption (or heart rate); debt",
+   "accept_also": "'EPOC' for the first blank; 'gap' or 'shortfall' for the second blank",
+   "marking_note": "language item - focus on connector structure, not new content"
+  },
+  {
+   "part": 3,
+   "prompt": "This is called ___, and it can last for ___.",
+   "answer": "EPOC; up to 48 hours (main effect about 2 hours)",
+   "accept_also": "'a few hours' as a simplified accepted answer",
+   "marking_note": "language item"
+  },
+  {
+   "part": 4,
+   "prompt": "Heart rate and breathing return to normal the moment exercise stops.",
+   "answer": "F - They stay above resting level for a while; this is called EPOC and can last up to 48 hours.",
+   "accept_also": "any answer naming EPOC or 'stays high for a while'",
+   "marking_note": "content item - targets misconception 1"
+  },
+  {
+   "part": 4,
+   "prompt": "Lactate is only made without oxygen and it only causes muscle fatigue.",
+   "answer": "F - Lactate is actually an important fuel that muscles can use for energy, not simply a cause of tiredness.",
+   "accept_also": "answers mentioning lactate as an energy source",
+   "marking_note": "content item - targets misconception 2"
+  },
+  {
+   "part": 4,
+   "prompt": "The body only starts using fat for energy once carbohydrate has run out.",
+   "answer": "F - Fat and carbohydrate are used together during exercise; the balance depends on intensity, not on carbohydrate running out.",
+   "accept_also": "any mention that both fuels are used together",
+   "marking_note": "content item - targets misconception 3"
+  },
+  {
+   "part": 5,
+   "prompt": "Why do heart rate and oxygen consumption stay high after exercise stops?",
+   "answer": "After exercise, oxygen consumption and heart rate stay high because the body is still resynthesizing ATP and restoring the muscles and cardiorespiratory system to rest. This is called EPOC. The main phase lasts about 2 hours, with a smaller effect lasting up to 48 hours.",
+   "accept_also": "any answer that names EPOC and gives at least one correct reason (continued ATP resynthesis or restoring systems)",
+   "marking_note": "content item - extended response, checks full Analyse objective 2"
+  }
+ ],
+ "glossary": [
+  {
+   "term": "metabolic rate",
+   "definition": "how fast the body uses energy at a given moment",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "stress on 'ta' in metaBOLic",
+   "first_language_space": true
+  },
+  {
+   "term": "ATP (adenosine triphosphate)",
+   "definition": "the small energy molecule that muscles use to contract",
+   "part_of_speech": "noun",
+   "pronunciation_note": "say each letter: A-T-P",
+   "first_language_space": true
+  },
+  {
+   "term": "resynthesize",
+   "definition": "to make something again after it has been broken down",
+   "part_of_speech": "verb",
+   "pronunciation_note": "stress falls on 'thes': re-SYN-thes-ize, not RE-synthesize",
+   "first_language_space": true
+  },
+  {
+   "term": "oxidative phosphorylation",
+   "definition": "a process inside mitochondria that uses oxygen to make ATP",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "long word - break into syllables: ox-i-DA-tive phos-pho-ry-LA-tion",
+   "first_language_space": true
+  },
+  {
+   "term": "oxygen consumption",
+   "definition": "the amount of oxygen the body uses over time",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "stress on first syllable of 'oxygen'",
+   "first_language_space": true
+  },
+  {
+   "term": "cardiorespiratory system",
+   "definition": "the heart, lungs and blood vessels working together to deliver oxygen",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "compound word - stress on 'res' in respiratory: car-di-o-res-PI-ra-to-ry",
+   "first_language_space": true
+  },
+  {
+   "term": "EPOC (excess post-exercise oxygen consumption)",
+   "definition": "the extra oxygen use and higher metabolic rate that continues after exercise stops",
+   "part_of_speech": "abbreviation/noun",
+   "pronunciation_note": "say as one word: EE-pok",
+   "first_language_space": true
+  },
+  {
+   "term": "heart rate",
+   "definition": "the number of times the heart beats per minute",
+   "part_of_speech": "noun phrase",
+   "pronunciation_note": "equal stress on both words",
+   "first_language_space": true
+  }
+ ],
+ "teacher_script": [
+  "Look at this diagram: ATP turns into ADP and back again - this is what we call 'resynthesize'.",
+  "Muscles only store a little ATP, so during exercise this cycle must happen very fast - that's why oxygen consumption rises so quickly.",
+  "Watch this graph: oxygen consumption goes up during exercise... but look what happens right after exercise stops - it doesn't drop straight away.",
+  "This staying-high effect is called EPOC - excess post-exercise oxygen consumption - and it can last up to 48 hours.",
+  "In your breakout groups, complete the timeline poster: write one sentence for each phase using the frames on your worksheet.",
+  "Let's compare your recovery-phase sentences - which one best explains why oxygen consumption stays high?"
+ ],
+ "verification": {
+  "checks": [
+   {
+    "name": "Every subject claim traces to a source",
+    "status": "pass",
+    "note": "All 8 subject_brief items map to a cited source and the wording is a faithful paraphrase (e.g. 5-15x metabolic rate from Source 2, EPOC phase lengths from Source 6). Claim 5 (Fick's principle/heart rate) is a slightly loose paraphrase of Source 4 but still faithful to intent."
+   },
+   {
+    "name": "No fact contradicts the corpus",
+    "status": "pass",
+    "note": "No statement in subject_brief, vocabulary, or worksheet directly contradicts a corpus-stated fact. The 'oxygen debt' framing (see outdated-science check) is not sourced but also isn't a direct contradiction of anything the corpus states."
+   },
+   {
+    "name": "No outdated or disputed science presented as settled",
+    "status": "fail",
+    "note": "Language Bank Frame 3 and its answer key ('the body is still repaying an oxygen debt') presents the classical 'oxygen debt' model as the correct answer. This model is considered an oversimplification/outdated in current exercise physiology (EPOC is now attributed to multiple factors: ATP/PCr resynthesis, elevated body temperature, catecholamines, lactate clearance - not a simple 'debt' being 'repaid'). It is not supported by any of the six sources and should be removed or reframed."
+   },
+   {
+    "name": "Objectives achievable in the lesson length",
+    "status": "flag",
+    "note": "50 minutes online must cover input stage, vocabulary, breakout-room poster task with circulation, whole-class share-back, AND a 5-part worksheet plus exit check. This is ambitious; teacher should confirm real timings, especially breakout room set-up/return overhead typical of online group classes."
+   },
+   {
+    "name": "Cognitive demand matches the stated Bloom level",
+    "status": "flag",
+    "note": "The main task (timeline poster, cause-effect sentences) and Worksheet Parts 2 and 5 genuinely reach Analyse. However, Part 1 (matching) and Part 3 (gap-fill) are Remember/Understand level. This scaffolding is defensible for A2-B1 learners but the teacher should confirm the lesson still culminates in genuine analysis for all groups, not just the strongest ones."
+   },
+   {
+    "name": "Vocabulary load within the cap",
+    "status": "pass",
+    "note": "Exactly 8 new terms listed, matching the stated cap."
+   },
+   {
+    "name": "Language on the worksheet matches the support level",
+    "status": "flag",
+    "note": "Several model/answer sentences (e.g. 'the body is still resynthesizing ATP and restoring the muscles and cardiorespiratory system to rest') and terms like 'oxidative phosphorylation', 'cardiorespiratory system' are dense for A2-B1. The frames themselves are manageable, but the extended-response and answer-key language likely exceeds what learners can produce unsupported; teacher should confirm scaffolding (sentence starters, L1 support) is sufficient in practice."
+   },
+   {
+    "name": "Task genuinely requires the target language",
+    "status": "pass",
+    "note": "The poster task requires learners to produce cause-effect sentences in English using target vocabulary; content cannot be conveyed by labels/drawing alone."
+   },
+   {
+    "name": "Task outcome is concrete, not a verb list",
+    "status": "pass",
+    "note": "Outcome is a specific artefact (shared three-phase timeline poster with one annotated sentence per phase) and a short presentation, not just a list of Bloom verbs."
+   },
+   {
+    "name": "Every worksheet item has an answer",
+    "status": "pass",
+    "note": "All items in Parts 1-5 have a corresponding answer_key entry with matching count. The exit_check has embedded guidance rather than a formal answer_key entry, but this is appropriate for an open, formative, L1-permitted check."
+   },
+   {
+    "name": "Content and language assessed separately",
+    "status": "pass",
+    "note": "Each worksheet part is explicitly tagged 'language' or 'content' in the 'assesses' field, and this split is consistent with the stated content/language objectives."
+   },
+   {
+    "name": "Age and register appropriate for the learner group",
+    "status": "pass",
+    "note": "Topic framing ('Why Does Your Heart Keep Racing After You Stop Running?'), examples, and allowance for L1 in the exit check are appropriate for 14-18 year olds; register is neutral and non-patronising."
+   }
+  ],
+  "unsupported_claims": [
+   {
+    "claim": "'After exercise stops, [X] stays high because the body is still repaying an oxygen debt' (Language Bank Frame 3 and its answer key entry: 'oxygen debt').",
+    "why": "The 'oxygen debt' concept is not present in any of the six corpus sources and reflects an outdated/oversimplified model of EPOC. Sources 4 and 6 describe EPOC in terms of continued ATP resynthesis and multi-hour elevation of metabolic rate, not a 'debt' being 'repaid'. Presenting this as the expected correct answer risks teaching a discredited mechanism as settled fact."
+   }
+  ],
+  "teacher_must_confirm": [
+   "Whether the 50-minute online slot realistically allows for input + breakout-room poster work + return/share-back + all 5 worksheet parts + exit check, or whether Parts 3-4 should be set as homework.",
+   "Whether to remove or replace the 'oxygen debt' phrasing in the Language Bank frame and answer key with a phrasing grounded in the supplied sources (e.g. 'the body is still using extra oxygen to resynthesise ATP').",
+   "Whether learners at A2-B1 can realistically produce the extended-response sentences modelled in the answer key unassisted, or whether more sentence scaffolding is needed in the online breakout format.",
+   "Whether breakout-room technology and shared docs/slides are confirmed working for this specific group before the lesson, given the task depends entirely on this online group mechanic.",
+   "Whether Part 4's 'rewrite the false sentence correctly' task is too demanding a free-writing task for the weakest learners in this A2-B1 range, and whether a rewritten multiple-choice correction format is preferable."
+  ]
+ },
+ "generation": {
+  "mode": "grounded",
+  "write_model": "claude_sonnet_5_0",
+  "verify_model": "claude_sonnet_5_0",
+  "note": "Subject content written from 6 retrieved sources and audited by a second pass. Claims carry source numbers. Anything the audit could not confirm is flagged rather than hidden."
+ },
+ "share_token": "e88721c849c1462a8d46ab7c6179be97"
+}

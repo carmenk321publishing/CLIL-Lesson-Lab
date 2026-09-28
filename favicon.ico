@@ -1,0 +1,1 @@
+{"detail":"No static asset at /favicon.ico. If this is a backend API call, prefix the path with /port/8000/ — backend ports are not auto-routed."}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My profile — CLIL Lesson Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="profile">
+
+<main>
+  <div class="shell shell--narrow">
+
+    <h1 class="page-title">My profile</h1>
+    <p class="lede">
+      Asked once. The package adjusts to the side of CLIL you did not train in.
+    </p>
+
+    <form id="profile-form" style="margin-top:var(--space-12)">
+
+      <section class="form-section">
+        <header>
+          <h2>Your role</h2>
+          <p>This decides which kind of support you get.</p>
+        </header>
+        <div class="field field--full">
+          <span class="field__label">Which describes you best?</span>
+          <div class="choice-row" id="role-row"></div>
+          <p class="hint">
+            Language teacher: subject accuracy prompts and likely misconceptions.
+            Subject teacher: the language demand of every task, made visible.
+            Both: a balance check instead.
+          </p>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <header>
+          <h2>Your usual context</h2>
+          <p>Starting values for every new lesson. Override any of them per lesson.</p>
+        </header>
+        <div class="field-grid">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Optional">
+          </div>
+          <div class="field">
+            <label for="institution">School or organisation</label>
+            <input type="text" id="institution" name="institution" placeholder="Optional">
+            <p class="hint">A reminder on your packages to check local policy.</p>
+          </div>
+          <div class="field">
+            <label for="subject">Subject you most often teach</label>
+            <input type="text" id="subject" name="subject" placeholder="For example, history or general science">
+          </div>
+          <div class="field">
+            <label for="target_language">Target language</label>
+            <input type="text" id="target_language" name="target_language" placeholder="For example, English">
+          </div>
+          <div class="field">
+            <label for="first_language">Learners' first language or languages</label>
+            <input type="text" id="first_language" name="first_language" placeholder="For example, Kinyarwanda, Spanish">
+            <p class="hint">Decides when the first language is allowed as support.</p>
+          </div>
+          <div class="field">
+            <label for="learner_group">Usual learner group</label>
+            <select id="learner_group" name="learner_group"></select>
+          </div>
+          <div class="field">
+            <label for="setting">Usual setting</label>
+            <select id="setting" name="setting"></select>
+          </div>
+          <div class="field">
+            <label for="format">Usual class format</label>
+            <select id="format" name="format"></select>
+          </div>
+        </div>
+      </section>
+
+      <div class="form-actions">
+        <button class="btn btn--primary" type="submit">Save profile</button>
+        <a class="btn btn--text" href="build.html">Skip for now and plan a lesson</a>
+      </div>
+    </form>
+
+  </div>
+</main>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

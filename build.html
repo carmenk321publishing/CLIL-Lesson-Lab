@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan a lesson — CLIL Lesson Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="build">
+
+<main>
+  <div class="shell shell--narrow">
+
+    <div class="card" id="course-banner" hidden style="margin-bottom:var(--space-10)"></div>
+
+    <h1 class="page-title">Plan a lesson</h1>
+    <p class="lede">
+      Fill in what you know. Anything left blank is stated as an assumption on the package, not guessed
+      silently.
+    </p>
+
+    <form id="build-form" style="margin-top:var(--space-12)">
+      <input type="hidden" name="course_id">
+      <input type="hidden" name="reflect_lesson_id">
+
+      <!-- Reflection on the prior lesson. Only shown inside a course. -->
+      <section class="form-section" id="reflect-section" hidden>
+        <header>
+          <h2>How did the last lesson go?</h2>
+          <p id="reflect-intro"></p>
+        </header>
+        <div class="field-grid">
+          <div class="field field--full">
+            <label for="r_overall">In a sentence, how did it go?</label>
+            <input type="text" id="r_overall" name="r_overall" placeholder="Optional">
+          </div>
+          <div class="field">
+            <label for="r_content">Did learners meet the content objective?</label>
+            <select id="r_content" name="r_content">
+              <option value="">Prefer not to say</option>
+              <option value="met">Yes, met it</option>
+              <option value="partly">Partly</option>
+              <option value="not_yet">Not yet</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="r_language">Did learners meet the language objective?</label>
+            <select id="r_language" name="r_language">
+              <option value="">Prefer not to say</option>
+              <option value="met">Yes, met it</option>
+              <option value="partly">Partly</option>
+              <option value="not_yet">Not yet</option>
+            </select>
+            <p class="hint">Separate on purpose. A learner can understand the science and still not have
+               the words for it.</p>
+          </div>
+          <div class="field field--full">
+            <label for="r_struggle">Where did learners struggle?</label>
+            <input type="text" id="r_struggle" name="r_struggle" placeholder="For example, the reading, the group instructions, the technology">
+            <p class="hint">Targeted directly in the next pre-task scaffold.</p>
+          </div>
+          <div class="field field--full">
+            <label for="r_enjoyed">What did learners particularly enjoy or respond well to?</label>
+            <input type="text" id="r_enjoyed" name="r_enjoyed" placeholder="For example, the sorting activity, working in threes">
+            <p class="hint">Kept in the next main task rather than replaced.</p>
+          </div>
+          <div class="field">
+            <label for="r_cut">Anything you had to cut or ran out of time for?</label>
+            <input type="text" id="r_cut" name="r_cut" placeholder="Optional">
+          </div>
+          <div class="field">
+            <label for="r_carry">Anything you want to repeat or carry forward?</label>
+            <input type="text" id="r_carry" name="r_carry" placeholder="Optional">
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <header>
+          <h2>What are you teaching?</h2>
+          <p>Content first. The lesson is built around it.</p>
+        </header>
+        <div class="field-grid">
+          <div class="field">
+            <label for="b-subject">Subject</label>
+            <input type="text" id="b-subject" name="subject" required placeholder="For example, history">
+          </div>
+          <div class="field">
+            <label for="b-topic">Topic of this lesson</label>
+            <input type="text" id="b-topic" name="topic" required placeholder="For example, causes of the Great Migration">
+          </div>
+          <div class="field field--full">
+            <label for="b-idea">Your idea for the lesson, in your own words</label>
+            <textarea id="b-idea" name="lesson_idea" placeholder="A rough sketch is enough. For example: I want them to compare two primary sources and decide which reason mattered most."></textarea>
+            <p class="hint">Use this, the fields below, or both.</p>
+          </div>
+          <div class="field field--full">
+            <label for="b-source">Existing material, pasted in</label>
+            <textarea id="b-source" name="source_text" placeholder="Paste text from a worksheet, a textbook page, a slide, or an old lesson plan."></textarea>
+          </div>
+          <div class="field field--full">
+            <label for="b-link">A link to material</label>
+            <input type="text" id="b-link" name="source_link" placeholder="An article, video, interactive or online worksheet">
+          </div>
+          <div class="field field--full">
+            <span class="field__label">Upload a file</span>
+            <div class="file-drop">
+              File upload is not built yet. Paste the text or add a link above.
+              <br><span class="faint">Planned: PDF, Word, PowerPoint, images, plain text.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <header>
+          <h2>Who is in the room?</h2>
+          <p>Age group first, language support second.</p>
+        </header>
+        <div class="field-grid">
+          <div class="field">
+            <label for="b-learner_group">Learner group</label>
+            <select id="b-learner_group" name="learner_group"></select>
+          </div>
+          <div class="field">
+            <label for="b-purpose">Why are they studying this?</label>
+            <select id="b-purpose" name="purpose"></select>
+          </div>
+          <div class="field">
+            <label for="b-target_language">Target language</label>
+            <input type="text" id="b-target_language" name="target_language" placeholder="For example, English">
+          </div>
+          <div class="field">
+            <label for="b-first_language">Learners' first language or languages</label>
+            <input type="text" id="b-first_language" name="first_language">
+          </div>
+          <div class="field field--full">
+            <span class="field__label">How much language support do they need?</span>
+            <div class="choice-row" id="b-support-row"></div>
+            <p class="hint">CEFR equivalent shown beside each option. "Not sure" is a valid answer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <header>
+          <h2>How will it run?</h2>
+          <p>These change the task itself. One to one is rebuilt around an information gap, not stripped of
+             group work.</p>
+        </header>
+        <div class="field-grid">
+          <div class="field">
+            <label for="b-setting">Setting</label>
+            <select id="b-setting" name="setting"></select>
+          </div>
+          <div class="field">
+            <label for="b-format">Class format</label>
+            <select id="b-format" name="format"></select>
+          </div>
+          <div class="field">
+            <label for="b-minutes">Lesson length in minutes</label>
+            <input type="number" id="b-minutes" name="minutes" min="10" max="240" value="45">
+          </div>
+          <div class="field">
+            <label for="b-bloom">Cognitive demand, if you have one in mind</label>
+            <select id="b-bloom" name="bloom_level"></select>
+            <p class="hint">Only levels suited to the age group are offered.</p>
+          </div>
+          <div class="field field--full">
+            <span class="field__label">Which side of CLIL are you covering?</span>
+            <div class="choice-row" id="b-role-row"></div>
+            <p class="hint">Decides which support section you get.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <header>
+          <h2>The lessons either side</h2>
+          <p>CLIL is cumulative, so the package names both.</p>
+        </header>
+        <div class="field-grid">
+          <div class="field">
+            <label for="b-prior">What did the previous lesson cover?</label>
+            <input type="text" id="b-prior" name="prior_lesson" placeholder="Leave blank if there was not one">
+          </div>
+          <div class="field">
+            <label for="b-next">What comes next?</label>
+            <input type="text" id="b-next" name="next_topic" placeholder="Even a rough idea helps">
+          </div>
+        </div>
+      </section>
+
+      <div class="form-actions">
+        <button class="btn btn--primary" type="submit" id="build-submit">Build my lesson package</button>
+        <span class="faint">Editable afterwards.</span>
+      </div>
+
+      <div id="build-status" class="card card--quiet" hidden style="margin-top:var(--space-6)"></div>
+    </form>
+
+  </div>
+</main>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice" role="presentation">
+  <defs>
+    <filter id="paper" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="4" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="90" xChannelSelector="R" yChannelSelector="G"/>
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="paper2" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="23" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="70" xChannelSelector="R" yChannelSelector="G"/>
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <radialGradient id="sage" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7f9c84" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#7f9c84" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eucalyptus" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#93b3c4" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#93b3c4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sky" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8fb4cc" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#8fb4cc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sand" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#cfc7b4" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#cfc7b4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g filter="url(#paper)">
+    <ellipse cx="140" cy="120" rx="620" ry="430" fill="url(#sage)"/>
+    <ellipse cx="1480" cy="200" rx="540" ry="400" fill="url(#eucalyptus)"/>
+    <ellipse cx="1340" cy="1080" rx="640" ry="420" fill="url(#sand)"/>
+  </g>
+  <g filter="url(#paper2)">
+    <ellipse cx="220" cy="1020" rx="560" ry="380" fill="url(#sky)"/>
+    <ellipse cx="800" cy="620" rx="720" ry="460" fill="url(#sage)" opacity="0.55"/>
+  </g>
+</svg>

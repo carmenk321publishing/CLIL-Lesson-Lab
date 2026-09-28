@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The 5 Cs check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="fivecs">
+
+<main>
+  <div class="shell shell--narrow" id="fivecs-root">
+    <p class="eyebrow">Check any lesson</p>
+    <h1 class="page-title">The 5 Cs check</h1>
+    <p class="lede">Paste a lesson plan, from this tool or from anywhere else, and read it back
+      strand by strand. The scan shows you the wording it matched. You decide what it means.</p>
+
+    <div class="helpbox" data-fivecs-loaded hidden>
+      Loaded from your package: <strong></strong>. Results are below. You can paste a different
+      plan at any time.
+    </div>
+
+    <form class="form-section" data-fivecs-form>
+      <h2>Which framework are you working to?</h2>
+      <p class="faint">There is no single agreed fifth C. Pick the set you were taught, and the
+        check will follow it.</p>
+
+      <div class="choice-row" style="margin-top:var(--space-4)">
+        <label class="choice">
+          <input type="radio" name="fivecs-framework" value="guidebook" checked>
+          <span>
+            <strong>Content, Communication, Competences, Community, Cognition</strong>
+            <span class="faint">The CLIL Guidebook</span>
+          </span>
+        </label>
+        <label class="choice">
+          <input type="radio" name="fivecs-framework" value="coyle">
+          <span>
+            <strong>Content, Communication, Cognition, Culture, Community</strong>
+            <span class="faint">Coyle's 4Cs, with community added</span>
+          </span>
+        </label>
+      </div>
+
+      <p class="faint" style="margin-top:var(--space-4)">
+        <span data-fivecs-cite>Attard Montalto, Walter, Theodorou and Chrysanthou, The CLIL Guidebook, CLIL4U, funded by the European Commission.</span>
+        <a data-fivecs-cite-link href="https://languages.dk/archive/clil4u/book/CLIL%20Book%20Original%20EN.pdf" target="_blank" rel="noopener">Read the source</a>.
+      </p>
+
+      <h2 style="margin-top:var(--space-8)">Your lesson</h2>
+
+      <div class="field">
+        <label for="fivecs-title">Lesson name</label>
+        <input type="text" id="fivecs-title" placeholder="Optional, used on the summary you copy">
+      </div>
+
+      <div class="field field--full">
+        <label for="fivecs-text">The plan, pasted in</label>
+        <textarea id="fivecs-text" rows="12"
+          placeholder="Paste the whole thing: objectives, the stages, what learners do, the worksheet tasks, anything you hand out. The more you paste, the less the check has to guess."></textarea>
+        <p class="faint">Nothing is sent anywhere. The scan runs in your browser.</p>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn btn--primary" type="submit">Check the lesson</button>
+      </div>
+    </form>
+
+    <div id="fivecs-out"></div>
+
+    <div class="disclaimer">
+      <h2>What this can and cannot tell you</h2>
+      <ul class="bullets">
+        <li>It reads wording. A plan can name every strand and still teach none of them, and a
+          strong lesson can score badly because you write in shorthand.</li>
+        <li>Cognition is the easiest strand to fake on paper and the hardest to see in a plan.
+          Ask who is doing the reasoning, not which verbs appear.</li>
+        <li>Community and culture usually live in the questions you ask on the day, so a plan
+          rarely records them even when the lesson has them.</li>
+        <li>A planning aid, not an approved lesson. You remain the judge of accuracy, policy
+          and cultural fit.</li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/fivecs.js"></script>
+</body>
+</html>

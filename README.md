@@ -1,174 +1,159 @@
 # CLIL Lesson Lab
 
-A planning tool for teachers new to Content and Language Integrated Learning (CLIL). The concept,
-structure and learning design are mine. I used AI to build it to my specifications, then tested and
-revised it myself.
+A planning tool that helps teachers build a full Content and Language Integrated Learning lesson,
+subject and language planned together, without starting from a blank page every time.
 
-**Live site:** https://portfolio-ck-clil.pplx.app
+**[Click Here to Visit the Live Website →](https://portfolio-ck-clil.pplx.app/index.html)**
 
-## Skeleton build notes
+---
 
-A planning tool for teachers new to CLIL. A teacher supplies context, the tool returns a
-structured CLIL Lesson Package, and the reflection they write afterwards shapes the next one.
+## What it is
 
-This is a skeleton: the structure, data model, interface and export paths are real and working.
-Subject-specific detail is left as guided placeholders, with one clearly marked insertion point
-for the generative layer.
+Most CLIL guidance explains the theory, content, communication, cognition, culture, and leaves the
+teacher to work out what that looks like in a 45-minute lesson on Tuesday. This tool builds the
+lesson instead: a full package with objectives, a five-stage structure, language support, a
+worksheet, an answer key and a glossary, generated from what the teacher already knows about their
+learners and their course.
 
-## Running it
+The framing is deliberately plain. No characters, no points, no rewards. A teacher's time is the
+scarce resource here, not their attention, so the tool gets out of the way and produces something
+usable.
+
+Courses hold what does not change week to week: the subject, the learner group, the language
+support level. Each new lesson inherits that context and starts from how the last lesson went, so
+lesson three does not repeat the setup work lesson one already did.
+
+## How it works
+
+A teacher enters a course once, subject, learner group, purpose, target and first language, how
+much language support these learners need, and then plans lessons inside it. Planning a lesson can
+also stand alone, with nothing set up first.
+
+Every package follows the same fixed shape:
+
+| Part | What it contains |
+| --- | --- |
+| Header and sequence | Where this lesson sits in the course, and what carried forward from the reflection on the last one |
+| Objectives | A content objective tagged to a Bloom's level suited to the age band, plus language objectives split into language of, for, and through learning |
+| Five stages | Bridge back, pre-task scaffold, content input, main task, report and check, each proportionally timed |
+| Language support bank | Functions, sentence frames, text load, and a first-language policy |
+| Materials | Worksheet, answer key, glossary, teacher script |
+| Compensation layer | Support aimed at what the plan cannot know: a language teacher gets subject accuracy prompts, a subject teacher gets the language demand made visible, a dual-role teacher gets a balance check |
+| Review checklist | Subject accuracy, policy, cultural representation, access |
+
+Subject content is written from retrieved sources rather than invented, and a separate audit pass
+checks the result: twelve checks against the corpus and the structural rules, each returned as
+passed, flagged, or failed with a specific note. On the "Silk Roads" worked example, the audit
+flags a cookbook given a chronological position none of the six sources actually support. It stays
+visible, because a tool that only shows its successes cannot be trusted about its failures.
+
+## Features
+
+- **Grounded generation with a visible audit.** Every factual claim in the subject brief carries the
+  index of the source it came from. A second model pass checks the lesson and materials against
+  that same source set and against the structural rules, and reports what it could not confirm
+  rather than letting it through silently.
+- **The 5 Cs check.** Paste any lesson plan, from this tool or from anywhere else, and read it back
+  strand by strand against the CLIL 5 Cs, content, communication, competences, community, cognition.
+  The tool shows the wording it matched; the teacher decides what it means. Two frameworks are
+  offered, since there is no single agreed fifth C.
+- **Worked examples, served without generating anything.** Three complete packages, each with
+  materials, citations, and the audit left visible, including what it found wrong.
+- **Course updates.** A family newsletter or an internal staff one-pager, drafted from the lessons
+  and reflections already in a course. Nothing new is asked for, and a teacher edits both before
+  sending. No learner names are ever asked for or stored.
+- **Exports.** Word and PowerPoint, generated on request from the same package data shown on screen.
+- **Light and dark themes**, switchable, on a calm sage, sky and sand palette with black text.
+
+## Instructional design grounding
+
+- **The CLIL 4Cs framework** (Coyle) for content, communication, cognition, and culture
+- **The CLIL Guidebook's 5Cs** (Attard Montalto, Walter, Theodorou, Chrysanthou) for the alternate
+  content, communication, competences, community, cognition framing used in the 5 Cs check
+- **Bloom's revised taxonomy** for the cognitive level behind each content objective
+- **CEFR** for language support levels, shown in plain language with the formal band alongside
+- **Language of, for, and through learning** (Coyle, Hood and Marsh) as the structure behind every
+  language objective
+
+## Technology
+
+A static front end (HTML, CSS, vanilla JavaScript, no framework or build step) served alongside a
+FastAPI backend that holds the lesson engine, the source retrieval, and the model calls.
+
+```
+index.html, courses.html, build.html,      pages
+package.html, exemplars.html, profile.html,
+reports.html, fivecs.html
+
+assets/css/base.css      design tokens, both colour themes
+assets/css/style.css     components, print stylesheet
+assets/js/app.js         shared chrome, API client, package renderer
+assets/js/enriched.js    the grounded sections: brief, worksheet, key, glossary, audit
+assets/js/reports.js     inline editor for course updates
+assets/js/fivecs.js      the 5 Cs check engine
+
+api_server.py       FastAPI app: profile, courses, lessons, reflections, exports
+api_ai.py           grounded generation, re-audit, exemplars, materials export
+api_documents.py    course update routes
+clil_engine.py      lesson structure; all pedagogy decisions live here
+clil_reports.py     course-level update drafting
+generator.py        the model layer: write, build materials, audit
+grounding.py        source retrieval, biased to institutional and open-access material
+exemplars/           three pre-generated worked examples and their cached evidence
+```
+
+### Running it locally
 
 ```bash
+git clone <repository-url>
+cd clil-lesson-lab
 python api_server.py          # API on :8000
 python -m http.server 5173    # static front end on :5173
 ```
 
-## Files
+Generation calls an Anthropic model and needs a credential set as an environment variable. Without
+one, the deterministic lesson structure still returns, with a note explaining that the subject
+detail is left for the teacher to write.
 
-| File | Role |
-| --- | --- |
-| `clil_engine.py` | Lesson structure. All lesson pedagogy is decided here and nowhere else. |
-| `grounding.py` | Source retrieval. Biased to institutional and open-access material. |
-| `generator.py` | The model layer: write, build materials, audit. Three passes. |
-| `api_ai.py` | Grounded generation, re-audit, exemplars and the materials export. |
-| `build_exemplar.py` | Produces a published exemplar. Caches retrieval per slug. |
-| `clil_reports.py` | Course-level updates: family newsletter and internal staff one-pager. |
-| `api_server.py` | FastAPI app: profile, courses, lessons, reflections, share links, exports. |
-| `api_documents.py` | Routes for course updates, kept separate from the lesson pipeline. |
-| `index.html` | Landing page with the two entry paths. |
-| `profile.html` | Teacher profile, asked once. Drives the compensation layer. |
-| `courses.html` | Course list and course creation. |
-| `build.html` | Lesson intake, with the prior-lesson reflection at the top when inside a course. |
-| `package.html` | The rendered package, review checklist, disclaimer and exports. |
-| `reports.html` | Course updates: draft, edit inline, export. |
-| `exemplars.html` | Published worked examples, served without generating anything. |
-| `fivecs.html` | The 5 Cs check: reads any lesson plan strand by strand, with the teacher's verdict carried into the summary. |
-| `assets/css/base.css` | Tokens, both colour modes, reset. |
-| `assets/css/style.css` | Components, including the print stylesheet used for PDF. |
-| `assets/js/app.js` | Shared chrome, API client, page controllers, package renderer. |
-| `assets/js/reports.js` | The inline document editor for course updates. |
-| `assets/js/enriched.js` | Renders the grounded sections: brief, worksheet, key, glossary, audit. |
-| `assets/js/fivecs.js` | The 5 Cs check engine, used on its own page and attached to every package. |
-| `assets/img/wash.svg` | The watercolour backdrop, drawn with SVG turbulence filters. |
+## Accessibility
 
-## Data model
+- Every colour-coded status (passed, flagged, failed) is also labelled in text.
+- Forms are keyboard operable, with visible focus states restyled to match the palette rather than
+  relying on the browser default.
+- A print stylesheet renders the package page cleanly for the worksheet and materials, without the
+  export round trip.
 
-Three stored objects, so context is entered once and never retyped.
+## Design system
 
-- **Profile** — role identity, subject, languages, usual learner group, setting and format.
-- **Course** — subject, learner group, purpose, languages, support level, length, lesson count.
-- **Lesson** — the payload, the generated package, a share token, and the teacher's reflection.
-- **Document** — a course update, its kind, the teacher's edits and a share token.
+Lato for body text, Be Vietnam Pro for display, a calm sage, sky and sand palette, black text with
+colour reserved for accents and state. No illustrated scenes, no gamified reward elements: the
+absence of those is deliberate, since this tool is aimed at working teachers rather than at
+onboarding through play.
 
-Records are scoped by the `X-Visitor-Id` header the host proxy supplies, since sandboxed frames
-have no cookies or local storage. Real accounts replace this layer without touching the engine.
+## Authorship and attribution
 
-## The package schema
+Concept, instructional design, the lesson schema, the compensation layer, the 5 Cs framework
+research, and testing by Carmen Khoury.
 
-Fixed order, nothing omitted:
+The code was generated by AI (Perplexity) working from my written specification and iterative
+direction. I did not hand-write the Python or JavaScript. I designed what the tool had to produce,
+why the lesson takes the shape it does, what the audit should check for, and what a teacher should
+walk away with, then directed and tested the build through many rounds of revision.
 
-1. Header and context
-2. Where this lesson sits — the sequence bridge, including reflection carried forward
-3. Objectives — content objectives tagged to a Bloom level suited to the age band, plus language
-   objectives split into language of, for and through learning
-4. Lesson shape — five stages with proportional timing: bridge back, pre-task scaffold, content
-   input, main task, report and check
-5. Language support bank — functions, sentence frames, text load, first-language policy
-6. Materials and preparation
-7. Support for what the package cannot know — the compensation layer
-8. Looking ahead
-9. Professional review checklist — subject accuracy, policy, culture and representation, access
-10. Disclaimer and framework sources
+I am naming that plainly because the distinction matters. This is a learning design and AI-direction
+portfolio piece, not a software engineering one.
 
-## Course updates
+## Status
 
-Both are drafted from records the account already holds: lesson packages plus the teacher's own
-reflections. Nothing new is asked for. Every section is editable in place, and sections can be
-removed.
+A concept project, functional and publicly usable, served from a private demo backend. Public
+visitors read the three static worked examples rather than trigger billed generation, a deliberate
+choice explained in the code. Not formally validated with a teacher cohort.
 
-**Family newsletter.** What was covered, what learners can now do, what went well, language they
-may bring home, and a short section on how progress works when a subject is taught through another
-language. That last one answers the question families actually ask, so it is generated rather than
-left blank.
+Possible next passes: a course-level SWOT-style context capture at setup, SMART goal-writing
+guidance beside the objectives, and real teacher accounts in place of the current anonymous
+visitor identity.
 
-**Staff one-pager.** For a principal, academic manager or co-instructor. Progress against content
-and language objectives separately, what is working, where learners are struggling, what the
-teacher already tried, the specific ask, and what is still unverified.
+## Licence
 
-Cadence is set per course: every two months, monthly, once a term, or only on request. In this
-build cadence is stored and displayed; the scheduled reminder is not wired up yet.
-
-### Two privacy rules, enforced in code
-
-1. **No learner names, ever.** Neither document asks for or stores them. Where named detail belongs
-   in a staff briefing, the tool emits a labelled blank and tells the teacher to complete it on
-   their own device and route it through the school's channel.
-2. **Locked sections cannot be silently rewritten.** `update_document()` preserves the generated
-   wording of any section marked `locked`. A teacher can delete such a section, but cannot edit a
-   privacy or liability notice into something misleading and then send it out.
-
-## Two design decisions worth noting
-
-**Grade before level.** CLIL is content-led, so the intake asks for the learner group and the
-purpose of learning first. Language proficiency is a supporting field in plain language, with the
-CEFR equivalent shown quietly beside it and "I am not sure yet" as a valid answer. When the answer
-is unknown the package states the assumption it made rather than hiding it.
-
-**The compensation layer.** A language teacher receives subject accuracy prompts and misconception
-checks. A subject teacher receives the language demand of the task made explicit. A dual-role
-teacher receives a balance check instead. This is decided in `clil_engine._compensation()`.
-
-## The generation pipeline
-
-Three model passes, run after the deterministic structure already exists. If any pass fails, the
-complete structure is still returned, which is the degradation behaviour a teacher-facing tool
-needs.
-
-1. **Retrieve** (`grounding.py`) — search, filter to institutional and open-access domains, fetch
-   and extract only what this lesson needs. Commercial content sites are excluded by pattern.
-2. **Write** (`generator.py`, pass 1) — objectives, subject brief, misconceptions, vocabulary,
-   language bank, input stage and main task. Only the retrieved corpus may be used for facts, and
-   every claim carries a source index.
-3. **Build materials** (pass 2) — student worksheet, answer key, glossary, teacher script.
-4. **Audit** (pass 3) — a separate call checks twelve things against the corpus and the structural
-   rules, and returns pass, flag or fail with a specific note. It reports; it never rewrites.
-
-### Rules enforced in code, not in the prompt
-
-- Vocabulary is truncated to the cap for the learner's support level after generation.
-- The audit receives the **full** corpus, never a truncated one. A source the auditor cannot see
-   gets reported as a fabricated citation, which is a false accusation and destroys trust in the
-   whole audit. This happened during development and is the reason for the comment in
-   `audit_content()`.
-- Invalid JSON gets one repair attempt before the pass is treated as failed.
-- Structure is never replaced by model output, only populated. Missing fields fall back to the
-   deterministic version.
-
-### Why exemplars are static
-
-`exemplars/*.json` are pre-generated and served as files. A visitor reading one costs nothing.
-Public generation billed to one account is an unbounded liability, so the live pipeline stays
-private and the published examples carry the quality argument.
-
-The first exemplar deliberately ships with a failing audit check. The audit caught the lesson
-teaching "repaying an oxygen debt", an outdated model of EPOC that none of the six sources support.
-It is left visible because a tool that only shows its successes cannot be trusted about its
-failures.
-
-## Not built yet
-
-File upload and extraction, real accounts, bring-your-own-key, generation rate limits and caching,
-a CEFR language-demand engine, scheduled update reminders, and terms and privacy pages.
-
-## Framework sources
-
-Structure is informed by public, institutional material. No third-party course content is
-reproduced anywhere in this project.
-
-- CEFR levels and descriptors, Council of Europe —
-  https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors
-- European Framework for CLIL Teacher Education, European Centre for Modern Languages —
-  https://www.ecml.at/en/Resources/ECML-resources/ID/35
-- Multilingualism policy, European Commission —
-  https://education.ec.europa.eu/focus-topics/improving-quality/multilingualism/about-multilingualism-policy
-- Coyle's 4Cs and the language of, for and through learning distinction, cited as scholarship —
-  https://www.cambridge.org/core/elements/content-and-language-integrated-learning-clil/9F6F698B7526AC6313DA1E95A61C2271
+To be confirmed before reuse. Please ask before adapting the pedagogical content, the lesson
+schema, or the audit criteria.
